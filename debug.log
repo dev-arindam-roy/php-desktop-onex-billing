@@ -1,0 +1,1162 @@
+- 14:34:05.266 INFO: --------------------------------------------------------
+- 14:34:05.266 INFO: Started application
+- 14:34:05.266 INFO: Logging to: G:\PHP_DESKTOP\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 14:34:05.266 INFO: Log level = DEBUG4
+- 14:34:05.266 INFO: Starting Mongoose 3.9c web server
+- 14:34:05.266 INFO: WWW directory: G:\PHP_DESKTOP\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 14:34:05.266 INFO: Index files: index.html,index.php
+- 14:34:05.266 INFO: CGI interpreter: G:\PHP_DESKTOP\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 14:34:05.266 INFO: CGI pattern: **.php$
+- 14:34:05.266 INFO: Hide files patterns: 
+- 14:34:05.266 INFO: CGI environment variables set: TMP=C:\Users\Arindam\AppData\Local\Temp\,TEMP=C:\Users\Arindam\AppData\Local\Temp\,TMPDIR=C:\Users\Arindam\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 14:34:05.281 INFO: Web server url: http://127.0.0.1:51939/
+- 14:34:05.297 INFO: remote_debugging_port = 61678
+- 14:34:05.360 DEBUG: Command line string for the browser process: "G:\PHP_DESKTOP\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="G:\PHP_DESKTOP\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=61678
+- 14:34:07.000 DEBUG: Command line string for the gpu-process process: "G:\PHP_DESKTOP\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="G:\PHP_DESKTOP\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=26.20.100.7810 --gpu-driver-date=1-21-2020 --lang=en-US --log-file="G:\PHP_DESKTOP\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=22A4E598E8DDC01962E5A2CF1121ABA4 --mojo-platform-channel-handle=1964 /prefetch:2
+- 14:34:08.469 DEBUG: App::OnContextInitialized()
+- 14:34:08.469 DEBUG: Window max width/height = 1286/680
+- 14:34:08.469 DEBUG: GetBrowserWindow(): not found, hwnd = 132098
+- 14:34:08.469 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 14:34:08.469 DEBUG: BrowserWindow::CreateBrowserControl()
+- 14:34:08.469 DEBUG: StoreBrowserWindow(): hwnd = 132098
+- 14:34:08.735 DEBUG: ClientHandler::OnAfterCreated()
+- 14:34:08.735 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 14:34:08.828 DEBUG: OnLoadingStateChange: loading=1, url=
+- 14:34:08.000 DEBUG: Command line string for the renderer process: "G:\PHP_DESKTOP\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=C4D7A6A2411DD6FBED568041A44F0AE5 --lang=en-US --lang=en-US --log-file="G:\PHP_DESKTOP\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=C4D7A6A2411DD6FBED568041A44F0AE5 --renderer-client-id=3 --mojo-platform-channel-handle=2368 /prefetch:1
+[0516/143411.003:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 14:34:11.547 DEBUG: OnBrowserCreated()
+- 14:34:16.656 INFO: GET 200 /
+- 14:34:16.985 INFO: GET 200 /style.css
+- 14:34:16.359 DEBUG: OnContextCreated()
+- 14:34:17.656 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51939/
+- 14:34:25.047 DEBUG: WM_DESTROY
+- 14:34:25.047 DEBUG: RemoveBrowserWindow(): hwnd = 132098
+- 14:34:25.063 INFO: Stopping Mongoose web server
+- 14:34:25.063 DEBUG: Mongoose webserver stopped immediately
+- 14:34:25.110 DEBUG: OnBeforeClose() hwnd=132136
+- 14:34:25.110 DEBUG: RemoveBrowserWindow(): hwnd = 132136
+- 14:34:25.110 DEBUG: GetBrowserWindow(): not found, hwnd = 132136
+- 14:34:25.110 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 14:34:25.110 DEBUG: Calling CefQuitMessageLoop()
+- 14:34:26.156 INFO: Ended application
+- 14:34:26.156 INFO: --------------------------------------------------------
+- 14:55:46.313 INFO: --------------------------------------------------------
+- 14:55:46.344 INFO: Started application
+- 14:55:46.344 INFO: Logging to: G:\PHP_DESKTOP\onex-billing\debug.log
+- 14:55:46.344 INFO: Log level = DEBUG4
+- 14:55:46.344 INFO: Starting Mongoose 3.9c web server
+- 14:55:46.344 INFO: WWW directory: G:\PHP_DESKTOP\onex-billing\www
+- 14:55:46.344 INFO: Index files: index.html,index.php
+- 14:55:46.344 INFO: CGI interpreter: G:\PHP_DESKTOP\onex-billing\php\php-cgi.exe
+- 14:55:46.344 INFO: CGI pattern: **.php$
+- 14:55:46.344 INFO: Hide files patterns: 
+- 14:55:46.344 INFO: CGI environment variables set: TMP=C:\Users\Arindam\AppData\Local\Temp\,TEMP=C:\Users\Arindam\AppData\Local\Temp\,TMPDIR=C:\Users\Arindam\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 14:55:46.375 INFO: Web server url: http://127.0.0.1:51637/
+- 14:55:46.375 INFO: remote_debugging_port = 53092
+- 14:55:46.579 DEBUG: Command line string for the browser process: "G:\PHP_DESKTOP\onex-billing\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="G:\PHP_DESKTOP\onex-billing\debug.log" --remote-debugging-port=53092
+- 14:55:48.000 DEBUG: Command line string for the gpu-process process: "G:\PHP_DESKTOP\onex-billing\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="G:\PHP_DESKTOP\onex-billing\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=26.20.100.7810 --gpu-driver-date=1-21-2020 --lang=en-US --log-file="G:\PHP_DESKTOP\onex-billing\debug.log" --service-request-channel-token=05A78563F03B2C4B74CA4E3181797B7A --mojo-platform-channel-handle=1856 /prefetch:2
+- 14:55:48.375 DEBUG: App::OnContextInitialized()
+- 14:55:48.375 DEBUG: Window max width/height = 1286/680
+- 14:55:48.375 DEBUG: GetBrowserWindow(): not found, hwnd = 460050
+- 14:55:48.375 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 14:55:48.391 DEBUG: BrowserWindow::CreateBrowserControl()
+- 14:55:48.391 DEBUG: StoreBrowserWindow(): hwnd = 460050
+- 14:55:49.922 DEBUG: ClientHandler::OnAfterCreated()
+- 14:55:49.922 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 14:55:49.032 DEBUG: OnLoadingStateChange: loading=1, url=
+- 14:55:49.000 DEBUG: Command line string for the renderer process: "G:\PHP_DESKTOP\onex-billing\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=DF950CF6C02C011D70F5B97F96AAE079 --lang=en-US --lang=en-US --log-file="G:\PHP_DESKTOP\onex-billing\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=DF950CF6C02C011D70F5B97F96AAE079 --renderer-client-id=3 --mojo-platform-channel-handle=2432 /prefetch:1
+[0516/145549.866:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 14:55:50.062 DEBUG: OnBrowserCreated()
+- 14:55:53.844 INFO: GET 200 /
+- 14:55:53.922 INFO: GET 200 /style.css
+- 14:55:53.078 DEBUG: OnContextCreated()
+- 14:55:53.454 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51637/
+- 14:56:01.641 DEBUG: WM_DESTROY
+- 14:56:01.641 DEBUG: RemoveBrowserWindow(): hwnd = 460050
+- 14:56:01.641 INFO: Stopping Mongoose web server
+- 14:56:01.641 DEBUG: Mongoose webserver stopped immediately
+- 14:56:01.641 DEBUG: OnBeforeClose() hwnd=132288
+- 14:56:01.641 DEBUG: RemoveBrowserWindow(): hwnd = 132288
+- 14:56:01.641 DEBUG: GetBrowserWindow(): not found, hwnd = 132288
+- 14:56:01.657 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 14:56:01.657 DEBUG: Calling CefQuitMessageLoop()
+- 14:56:01.609 DEBUG: OnBrowserDestroyed()
+- 14:56:02.063 INFO: Ended application
+- 14:56:02.063 INFO: --------------------------------------------------------
+- 15:02:10.094 INFO: --------------------------------------------------------
+- 15:02:10.109 INFO: Started application
+- 15:02:10.109 INFO: Logging to: G:\PHP_DESKTOP\onex-billing\debug.log
+- 15:02:10.109 INFO: Log level = DEBUG4
+- 15:02:10.109 INFO: Starting Mongoose 3.9c web server
+- 15:02:10.109 INFO: WWW directory: G:\PHP_DESKTOP\onex-billing\www
+- 15:02:10.109 INFO: Index files: index.html,index.php
+- 15:02:10.109 INFO: CGI interpreter: G:\PHP_DESKTOP\onex-billing\php\php-cgi.exe
+- 15:02:10.109 INFO: CGI pattern: **.php$
+- 15:02:10.109 INFO: Hide files patterns: 
+- 15:02:10.109 INFO: CGI environment variables set: TMP=C:\Users\Arindam\AppData\Local\Temp\,TEMP=C:\Users\Arindam\AppData\Local\Temp\,TMPDIR=C:\Users\Arindam\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 15:02:10.109 INFO: Web server url: http://127.0.0.1:51647/
+- 15:02:10.125 INFO: remote_debugging_port = 50433
+- 15:02:10.125 DEBUG: Command line string for the browser process: "G:\PHP_DESKTOP\onex-billing\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="G:\PHP_DESKTOP\onex-billing\debug.log" --remote-debugging-port=50433
+- 15:02:10.219 DEBUG: App::OnContextInitialized()
+- 15:02:10.219 DEBUG: Window max width/height = 1286/680
+- 15:02:10.219 DEBUG: GetBrowserWindow(): not found, hwnd = 1180330
+- 15:02:10.234 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 15:02:10.234 DEBUG: BrowserWindow::CreateBrowserControl()
+- 15:02:10.234 DEBUG: StoreBrowserWindow(): hwnd = 1180330
+- 15:02:10.016 DEBUG: Command line string for the gpu-process process: "G:\PHP_DESKTOP\onex-billing\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="G:\PHP_DESKTOP\onex-billing\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=26.20.100.7810 --gpu-driver-date=1-21-2020 --lang=en-US --log-file="G:\PHP_DESKTOP\onex-billing\debug.log" --service-request-channel-token=EC1C3AAEB85EA0CA58A3A76C46EF89C4 --mojo-platform-channel-handle=1808 /prefetch:2
+- 15:02:10.391 DEBUG: ClientHandler::OnAfterCreated()
+- 15:02:10.391 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 15:02:10.422 DEBUG: OnLoadingStateChange: loading=1, url=
+- 15:02:10.015 DEBUG: Command line string for the renderer process: "G:\PHP_DESKTOP\onex-billing\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=D25915FC54225AB0DB990FDC25617410 --lang=en-US --lang=en-US --log-file="G:\PHP_DESKTOP\onex-billing\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=D25915FC54225AB0DB990FDC25617410 --renderer-client-id=3 --mojo-platform-channel-handle=2420 /prefetch:1
+[0516/150210.739:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 15:02:10.062 DEBUG: OnBrowserCreated()
+- 15:02:30.813 INFO: GET 404 /
+- 15:02:30.828 INFO: GET 200 /public/master-assets/pace-progress/themes/black/pace-theme-minimal.css
+- 15:02:30.375 DEBUG: OnContextCreated()
+- 15:02:30.922 INFO: GET 200 /public/master-assets/style-fix.css
+- 15:02:30.984 INFO: GET 200 /public/master-assets/script-fix.js
+- 15:02:30.016 INFO: GET 200 /public/master-assets/css/adminlte.min.css
+- 15:02:30.031 INFO: GET 200 /public/master-assets/pace-progress/pace.min.js
+- 15:02:30.094 INFO: GET 200 /public/master-assets/jquery/jquery.min.js
+- 15:02:30.094 INFO: GET 200 /public/master-assets/bootstrap/js/bootstrap.bundle.min.js
+- 15:02:31.375 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51647/
+[0516/150231.619:INFO:CONSOLE(2)] "jQuery.Deferred exception: $(...).select2 is not a function", source: http://127.0.0.1:51647/public/master-assets/jquery/jquery.min.js (2)
+[0516/150231.638:INFO:CONSOLE(2)] "Uncaught TypeError: $(...).select2 is not a function", source: http://127.0.0.1:51647/public/master-assets/jquery/jquery.min.js (2)
+- 15:02:35.563 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51647/
+- 15:02:35.578 INFO: GET 404 /administrator/auth
+- 15:02:35.125 DEBUG: OnContextCreated()
+- 15:02:35.688 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51647/administrator/auth
+- 15:02:49.703 DEBUG: ClientHandler::OnAfterCreated()
+- 15:02:49.703 DEBUG: GetBrowserWindow(): not found, hwnd = 1376732
+- 15:02:49.703 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 15:02:49.703 DEBUG: StoreBrowserWindow(): hwnd = 1376732
+- 15:02:49.719 DEBUG: Centering popup window relative to its parent
+- 15:02:49.766 DEBUG: OnLoadingStateChange: loading=1, url=
+- 15:02:50.000 DEBUG: Command line string for the renderer process: "G:\PHP_DESKTOP\onex-billing\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=BDE2E9BAD0A06F15590A26F04DF4056A --lang=en-US --lang=en-US --log-file="G:\PHP_DESKTOP\onex-billing\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=BDE2E9BAD0A06F15590A26F04DF4056A --renderer-client-id=4 --mojo-platform-channel-handle=2916 /prefetch:1
+- 15:02:50.047 DEBUG: OnBrowserCreated()
+- 15:02:50.079 DEBUG: OnContextCreated()
+- 15:02:50.359 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 15:03:03.547 DEBUG: OnBeforeClose() hwnd=1376732
+- 15:03:03.547 DEBUG: RemoveBrowserWindow(): hwnd = 1376732
+- 15:03:03.797 DEBUG: OnBrowserDestroyed()
+- 15:03:15.141 DEBUG: WM_DESTROY
+- 15:03:15.141 DEBUG: RemoveBrowserWindow(): hwnd = 1180330
+- 15:03:15.141 INFO: Stopping Mongoose web server
+- 15:03:15.156 DEBUG: Mongoose webserver stopped immediately
+- 15:03:15.156 DEBUG: OnBeforeClose() hwnd=1639366
+- 15:03:15.156 DEBUG: RemoveBrowserWindow(): hwnd = 1639366
+- 15:03:15.156 DEBUG: GetBrowserWindow(): not found, hwnd = 1639366
+- 15:03:15.172 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 15:03:15.172 DEBUG: Calling CefQuitMessageLoop()
+- 15:03:15.719 DEBUG: OnBrowserDestroyed()
+- 15:03:15.219 INFO: Ended application
+- 15:03:15.219 INFO: --------------------------------------------------------
+- 15:06:22.281 INFO: --------------------------------------------------------
+- 15:06:22.328 INFO: Started application
+- 15:06:22.328 INFO: Logging to: G:\PHP_DESKTOP\onex-billing\debug.log
+- 15:06:22.328 INFO: Log level = DEBUG4
+- 15:06:22.328 INFO: Starting Mongoose 3.9c web server
+- 15:06:22.328 INFO: WWW directory: G:\PHP_DESKTOP\onex-billing\www
+- 15:06:22.328 INFO: Index files: index.html,index.php
+- 15:06:22.328 INFO: CGI interpreter: G:\PHP_DESKTOP\onex-billing\php\php-cgi.exe
+- 15:06:22.328 INFO: CGI pattern: **.php$
+- 15:06:22.328 INFO: Hide files patterns: 
+- 15:06:22.328 INFO: CGI environment variables set: TMP=C:\Users\Arindam\AppData\Local\Temp\,TEMP=C:\Users\Arindam\AppData\Local\Temp\,TMPDIR=C:\Users\Arindam\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 15:06:23.359 INFO: Web server url: http://127.0.0.1:51734/
+- 15:06:23.359 INFO: remote_debugging_port = 50832
+- 15:06:23.484 DEBUG: Command line string for the browser process: "G:\PHP_DESKTOP\onex-billing\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="G:\PHP_DESKTOP\onex-billing\debug.log" --remote-debugging-port=50832
+- 15:06:24.000 DEBUG: Command line string for the gpu-process process: "G:\PHP_DESKTOP\onex-billing\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="G:\PHP_DESKTOP\onex-billing\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=26.20.100.7810 --gpu-driver-date=1-21-2020 --lang=en-US --log-file="G:\PHP_DESKTOP\onex-billing\debug.log" --service-request-channel-token=7DF79C265689717B28E87A808C8E69B2 --mojo-platform-channel-handle=1920 /prefetch:2
+- 15:06:24.203 DEBUG: App::OnContextInitialized()
+- 15:06:24.203 DEBUG: Window max width/height = 1286/680
+- 15:06:24.218 DEBUG: GetBrowserWindow(): not found, hwnd = 197806
+- 15:06:24.218 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 15:06:24.218 DEBUG: BrowserWindow::CreateBrowserControl()
+- 15:06:24.234 DEBUG: StoreBrowserWindow(): hwnd = 197806
+- 15:06:25.468 DEBUG: ClientHandler::OnAfterCreated()
+- 15:06:25.468 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 15:06:25.500 DEBUG: OnLoadingStateChange: loading=1, url=
+[0516/150625.171:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 15:06:25.000 DEBUG: Command line string for the renderer process: "G:\PHP_DESKTOP\onex-billing\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=8A66032414D66C7C39623F5E4E60881F --lang=en-US --lang=en-US --log-file="G:\PHP_DESKTOP\onex-billing\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=8A66032414D66C7C39623F5E4E60881F --renderer-client-id=3 --mojo-platform-channel-handle=2400 /prefetch:1
+- 15:06:25.516 DEBUG: OnBrowserCreated()
+- 15:06:32.109 INFO: GET 404 /
+- 15:06:32.328 INFO: GET 200 /public/master-assets/pace-progress/themes/black/pace-theme-minimal.css
+- 15:06:33.390 INFO: GET 200 /public/master-assets/jquery/jquery.min.js
+- 15:06:33.406 INFO: GET 200 /public/master-assets/pace-progress/pace.min.js
+- 15:06:33.437 INFO: GET 200 /public/master-assets/script-fix.js
+- 15:06:33.453 INFO: GET 200 /public/master-assets/style-fix.css
+- 15:06:33.453 INFO: GET 200 /public/master-assets/bootstrap/js/bootstrap.bundle.min.js
+- 15:06:33.562 INFO: GET 200 /public/master-assets/css/adminlte.min.css
+- 15:06:33.266 DEBUG: OnContextCreated()
+[0516/150634.243:INFO:CONSOLE(2)] "jQuery.Deferred exception: $(...).select2 is not a function", source: http://127.0.0.1:51734/public/master-assets/jquery/jquery.min.js (2)
+- 15:06:34.593 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51734/
+[0516/150634.262:INFO:CONSOLE(2)] "Uncaught TypeError: $(...).select2 is not a function", source: http://127.0.0.1:51734/public/master-assets/jquery/jquery.min.js (2)
+- 15:06:40.062 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51734/
+- 15:06:45.469 DEBUG: OnContextCreated()
+- 15:06:45.109 INFO: GET 500 /administrator/auth
+- 15:06:46.859 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51734/administrator/auth
+- 15:12:09.703 DEBUG: WM_DESTROY
+- 15:12:09.703 DEBUG: RemoveBrowserWindow(): hwnd = 197806
+- 15:12:09.703 INFO: Stopping Mongoose web server
+- 15:12:09.718 DEBUG: Mongoose webserver stopped immediately
+- 15:12:09.750 DEBUG: OnBeforeClose() hwnd=66866
+- 15:12:09.750 DEBUG: RemoveBrowserWindow(): hwnd = 66866
+- 15:12:09.765 DEBUG: GetBrowserWindow(): not found, hwnd = 66866
+- 15:12:09.765 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 15:12:09.781 DEBUG: Calling CefQuitMessageLoop()
+- 15:12:09.641 DEBUG: OnBrowserDestroyed()
+- 15:12:10.546 INFO: Ended application
+- 15:12:10.546 INFO: --------------------------------------------------------
+- 15:12:25.125 INFO: --------------------------------------------------------
+- 15:12:25.125 INFO: Started application
+- 15:12:25.125 INFO: Logging to: G:\PHP_DESKTOP\onex-billing\debug.log
+- 15:12:25.125 INFO: Log level = DEBUG4
+- 15:12:25.125 INFO: Starting Mongoose 3.9c web server
+- 15:12:25.125 INFO: WWW directory: G:\PHP_DESKTOP\onex-billing\www
+- 15:12:25.125 INFO: Index files: index.html,index.php
+- 15:12:25.125 INFO: CGI interpreter: G:\PHP_DESKTOP\onex-billing\php\php-cgi.exe
+- 15:12:25.125 INFO: CGI pattern: **.php$
+- 15:12:25.125 INFO: Hide files patterns: 
+- 15:12:25.125 INFO: CGI environment variables set: TMP=C:\Users\Arindam\AppData\Local\Temp\,TEMP=C:\Users\Arindam\AppData\Local\Temp\,TMPDIR=C:\Users\Arindam\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 15:12:25.156 INFO: Web server url: http://127.0.0.1:51844/
+- 15:12:25.156 INFO: remote_debugging_port = 60038
+- 15:12:25.156 DEBUG: Command line string for the browser process: "G:\PHP_DESKTOP\onex-billing\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="G:\PHP_DESKTOP\onex-billing\debug.log" --remote-debugging-port=60038
+- 15:12:25.234 DEBUG: App::OnContextInitialized()
+- 15:12:25.234 DEBUG: Window max width/height = 1286/680
+- 15:12:25.250 DEBUG: GetBrowserWindow(): not found, hwnd = 656546
+- 15:12:25.250 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 15:12:25.250 DEBUG: BrowserWindow::CreateBrowserControl()
+- 15:12:25.250 DEBUG: StoreBrowserWindow(): hwnd = 656546
+- 15:12:25.328 DEBUG: ClientHandler::OnAfterCreated()
+- 15:12:25.328 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 15:12:25.000 DEBUG: Command line string for the gpu-process process: "G:\PHP_DESKTOP\onex-billing\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="G:\PHP_DESKTOP\onex-billing\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=26.20.100.7810 --gpu-driver-date=1-21-2020 --lang=en-US --log-file="G:\PHP_DESKTOP\onex-billing\debug.log" --service-request-channel-token=7AC3E72F015BAF76C43FF927218525AB --mojo-platform-channel-handle=1808 /prefetch:2
+- 15:12:25.359 DEBUG: OnLoadingStateChange: loading=1, url=
+- 15:12:26.000 DEBUG: Command line string for the renderer process: "G:\PHP_DESKTOP\onex-billing\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=F4A858431DCB0A0629370130304DAF5C --lang=en-US --lang=en-US --log-file="G:\PHP_DESKTOP\onex-billing\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=F4A858431DCB0A0629370130304DAF5C --renderer-client-id=3 --mojo-platform-channel-handle=2424 /prefetch:1
+- 15:12:26.062 DEBUG: OnBrowserCreated()
+[0516/151226.165:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 15:12:32.047 INFO: GET 200 /public/master-assets/pace-progress/themes/black/pace-theme-minimal.css
+- 15:12:32.047 INFO: GET 200 /
+- 15:12:32.671 DEBUG: OnContextCreated()
+- 15:12:32.093 INFO: GET 200 /public/master-assets/style-fix.css
+- 15:12:32.109 INFO: GET 200 /public/master-assets/script-fix.js
+- 15:12:32.125 INFO: GET 200 /public/master-assets/bootstrap/js/bootstrap.bundle.min.js
+- 15:12:32.172 INFO: GET 200 /public/master-assets/jquery/jquery.min.js
+- 15:12:32.203 INFO: GET 200 /public/master-assets/css/adminlte.min.css
+- 15:12:32.218 INFO: GET 200 /public/master-assets/pace-progress/pace.min.js
+[0516/151233.090:INFO:CONSOLE(2)] "jQuery.Deferred exception: $(...).select2 is not a function", source: http://127.0.0.1:51844/public/master-assets/jquery/jquery.min.js (2)
+- 15:12:33.484 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51844/
+[0516/151233.101:INFO:CONSOLE(2)] "Uncaught TypeError: $(...).select2 is not a function", source: http://127.0.0.1:51844/public/master-assets/jquery/jquery.min.js (2)
+- 15:12:35.297 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51844/
+- 15:12:36.390 DEBUG: OnContextCreated()
+- 15:12:36.828 INFO: GET 200 /administrator/auth
+- 15:12:37.390 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51844/administrator/auth
+- 15:13:15.984 DEBUG: WM_DESTROY
+- 15:13:15.984 DEBUG: RemoveBrowserWindow(): hwnd = 656546
+- 15:13:15.000 INFO: Stopping Mongoose web server
+- 15:13:15.000 DEBUG: Mongoose webserver stopped immediately
+- 15:13:15.015 DEBUG: OnBeforeClose() hwnd=132402
+- 15:13:15.015 DEBUG: RemoveBrowserWindow(): hwnd = 132402
+- 15:13:15.031 DEBUG: GetBrowserWindow(): not found, hwnd = 132402
+- 15:13:15.031 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 15:13:15.047 DEBUG: Calling CefQuitMessageLoop()
+- 15:13:15.156 INFO: Ended application
+- 15:13:15.156 INFO: --------------------------------------------------------
+- 15:13:23.078 INFO: --------------------------------------------------------
+- 15:13:23.078 INFO: Started application
+- 15:13:23.078 INFO: Logging to: G:\PHP_DESKTOP\onex-billing\debug.log
+- 15:13:23.093 INFO: Log level = DEBUG4
+- 15:13:23.093 INFO: Starting Mongoose 3.9c web server
+- 15:13:23.093 INFO: WWW directory: G:\PHP_DESKTOP\onex-billing\www
+- 15:13:23.093 INFO: Index files: index.html,index.php
+- 15:13:23.093 INFO: CGI interpreter: G:\PHP_DESKTOP\onex-billing\php\php-cgi.exe
+- 15:13:23.093 INFO: CGI pattern: **.php$
+- 15:13:23.093 INFO: Hide files patterns: 
+- 15:13:23.093 INFO: CGI environment variables set: TMP=C:\Users\Arindam\AppData\Local\Temp\,TEMP=C:\Users\Arindam\AppData\Local\Temp\,TMPDIR=C:\Users\Arindam\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 15:13:23.109 INFO: Web server url: http://127.0.0.1:51858/
+- 15:13:23.125 INFO: remote_debugging_port = 61073
+- 15:13:23.125 DEBUG: Command line string for the browser process: "G:\PHP_DESKTOP\onex-billing\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="G:\PHP_DESKTOP\onex-billing\debug.log" --remote-debugging-port=61073
+- 15:13:23.218 DEBUG: App::OnContextInitialized()
+- 15:13:23.218 DEBUG: Window max width/height = 1286/680
+- 15:13:23.218 DEBUG: GetBrowserWindow(): not found, hwnd = 460014
+- 15:13:23.218 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 15:13:23.234 DEBUG: BrowserWindow::CreateBrowserControl()
+- 15:13:23.234 DEBUG: StoreBrowserWindow(): hwnd = 460014
+- 15:13:23.000 DEBUG: Command line string for the gpu-process process: "G:\PHP_DESKTOP\onex-billing\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="G:\PHP_DESKTOP\onex-billing\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=26.20.100.7810 --gpu-driver-date=1-21-2020 --lang=en-US --log-file="G:\PHP_DESKTOP\onex-billing\debug.log" --service-request-channel-token=FD554A4E9D49C9A733B792CB2760CD15 --mojo-platform-channel-handle=1800 /prefetch:2
+- 15:13:23.312 DEBUG: ClientHandler::OnAfterCreated()
+- 15:13:23.312 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 15:13:23.328 DEBUG: OnLoadingStateChange: loading=1, url=
+- 15:13:23.000 DEBUG: Command line string for the renderer process: "G:\PHP_DESKTOP\onex-billing\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=ACB9AD40324CB569E1079B4B9A3E2DE3 --lang=en-US --lang=en-US --log-file="G:\PHP_DESKTOP\onex-billing\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=ACB9AD40324CB569E1079B4B9A3E2DE3 --renderer-client-id=3 --mojo-platform-channel-handle=2412 /prefetch:1
+[0516/151323.970:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 15:13:23.063 DEBUG: OnBrowserCreated()
+- 15:13:25.109 INFO: GET 200 /public/master-assets/pace-progress/themes/black/pace-theme-minimal.css
+- 15:13:25.109 INFO: GET 200 /public/master-assets/style-fix.css
+- 15:13:25.109 INFO: GET 200 /public/master-assets/css/adminlte.min.css
+- 15:13:25.109 INFO: GET 200 /
+- 15:13:25.109 INFO: GET 200 /public/master-assets/bootstrap/js/bootstrap.bundle.min.js
+- 15:13:25.109 INFO: GET 200 /public/master-assets/jquery/jquery.min.js
+- 15:13:25.109 INFO: GET 200 /public/master-assets/pace-progress/pace.min.js
+- 15:13:25.109 INFO: GET 200 /public/master-assets/script-fix.js
+- 15:13:25.735 DEBUG: OnContextCreated()
+[0516/151325.890:INFO:CONSOLE(2)] "jQuery.Deferred exception: $(...).select2 is not a function", source: http://127.0.0.1:51858/public/master-assets/jquery/jquery.min.js (2)
+- 15:13:25.359 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51858/
+[0516/151325.899:INFO:CONSOLE(2)] "Uncaught TypeError: $(...).select2 is not a function", source: http://127.0.0.1:51858/public/master-assets/jquery/jquery.min.js (2)
+- 15:13:28.046 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51858/
+- 15:13:29.266 DEBUG: OnContextCreated()
+- 15:13:29.671 INFO: GET 200 /administrator/auth
+- 15:13:29.109 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51858/administrator/auth
+- 15:16:58.859 DEBUG: WM_DESTROY
+- 15:16:58.859 DEBUG: RemoveBrowserWindow(): hwnd = 460014
+- 15:16:58.875 INFO: Stopping Mongoose web server
+- 15:16:58.875 DEBUG: Mongoose webserver stopped immediately
+- 15:16:58.890 DEBUG: OnBeforeClose() hwnd=197940
+- 15:16:58.890 DEBUG: RemoveBrowserWindow(): hwnd = 197940
+- 15:16:58.890 DEBUG: GetBrowserWindow(): not found, hwnd = 197940
+- 15:16:58.906 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 15:16:58.906 DEBUG: Calling CefQuitMessageLoop()
+- 15:16:58.015 INFO: Ended application
+- 15:16:58.015 INFO: --------------------------------------------------------
+- 15:19:01.093 INFO: --------------------------------------------------------
+- 15:19:01.109 INFO: Started application
+- 15:19:01.109 INFO: Logging to: G:\PHP_DESKTOP\onex-billing\debug.log
+- 15:19:01.109 INFO: Log level = DEBUG4
+- 15:19:01.109 INFO: Starting Mongoose 3.9c web server
+- 15:19:01.109 INFO: WWW directory: G:\PHP_DESKTOP\onex-billing\www
+- 15:19:01.109 INFO: Index files: index.html,index.php
+- 15:19:01.109 INFO: CGI interpreter: G:\PHP_DESKTOP\onex-billing\php\php-cgi.exe
+- 15:19:01.109 INFO: CGI pattern: **.php$
+- 15:19:01.109 INFO: Hide files patterns: 
+- 15:19:01.109 INFO: CGI environment variables set: TMP=C:\Users\Arindam\AppData\Local\Temp\,TEMP=C:\Users\Arindam\AppData\Local\Temp\,TMPDIR=C:\Users\Arindam\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 15:19:01.125 INFO: Web server url: http://127.0.0.1:51990/
+- 15:19:01.125 INFO: remote_debugging_port = 61713
+- 15:19:01.125 DEBUG: Command line string for the browser process: "G:\PHP_DESKTOP\onex-billing\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="G:\PHP_DESKTOP\onex-billing\debug.log" --remote-debugging-port=61713
+- 15:19:01.234 DEBUG: App::OnContextInitialized()
+- 15:19:01.234 DEBUG: Window max width/height = 1286/680
+- 15:19:01.234 DEBUG: GetBrowserWindow(): not found, hwnd = 263472
+- 15:19:01.234 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 15:19:01.234 DEBUG: BrowserWindow::CreateBrowserControl()
+- 15:19:01.234 DEBUG: StoreBrowserWindow(): hwnd = 263472
+- 15:19:01.328 DEBUG: ClientHandler::OnAfterCreated()
+- 15:19:01.328 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 15:19:01.000 DEBUG: Command line string for the gpu-process process: "G:\PHP_DESKTOP\onex-billing\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="G:\PHP_DESKTOP\onex-billing\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=26.20.100.7810 --gpu-driver-date=1-21-2020 --lang=en-US --log-file="G:\PHP_DESKTOP\onex-billing\debug.log" --service-request-channel-token=1B1F9CFE043CE16F70761DF49FF7035F --mojo-platform-channel-handle=1800 /prefetch:2
+- 15:19:01.359 DEBUG: OnLoadingStateChange: loading=1, url=
+- 15:19:01.015 DEBUG: Command line string for the renderer process: "G:\PHP_DESKTOP\onex-billing\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=7A6A5961E5C565DB11514F8CB35BF077 --lang=en-US --lang=en-US --log-file="G:\PHP_DESKTOP\onex-billing\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=7A6A5961E5C565DB11514F8CB35BF077 --renderer-client-id=3 --mojo-platform-channel-handle=2400 /prefetch:1
+- 15:19:01.062 DEBUG: OnBrowserCreated()
+[0516/151901.601:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 15:19:03.734 INFO: GET 200 /public/master-assets/pace-progress/themes/black/pace-theme-minimal.css
+- 15:19:03.734 INFO: GET 200 /public/master-assets/jquery/jquery.min.js
+- 15:19:03.734 INFO: GET 200 /public/master-assets/style-fix.css
+- 15:19:03.734 INFO: GET 200 /public/master-assets/bootstrap/js/bootstrap.bundle.min.js
+- 15:19:03.734 INFO: GET 200 /public/master-assets/css/adminlte.min.css
+- 15:19:03.734 INFO: GET 200 /public/master-assets/pace-progress/pace.min.js
+- 15:19:03.328 DEBUG: OnContextCreated()
+- 15:19:03.750 INFO: GET 200 /public/master-assets/script-fix.js
+- 15:19:03.765 INFO: GET 404 /
+[0516/151904.115:INFO:CONSOLE(2)] "jQuery.Deferred exception: $(...).select2 is not a function", source: http://127.0.0.1:51990/public/master-assets/jquery/jquery.min.js (2)
+- 15:19:04.000 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51990/
+[0516/151904.126:INFO:CONSOLE(2)] "Uncaught TypeError: $(...).select2 is not a function", source: http://127.0.0.1:51990/public/master-assets/jquery/jquery.min.js (2)
+- 15:19:06.750 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:51990/
+- 15:19:09.468 INFO: GET 500 /administrator/auth
+- 15:19:09.078 DEBUG: OnContextCreated()
+- 15:19:10.031 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:51990/administrator/auth
+- 15:19:27.312 DEBUG: WM_DESTROY
+- 15:19:27.312 DEBUG: RemoveBrowserWindow(): hwnd = 263472
+- 15:19:27.328 INFO: Stopping Mongoose web server
+- 15:19:27.359 DEBUG: Mongoose webserver stopped immediately
+- 15:19:27.375 DEBUG: OnBeforeClose() hwnd=329020
+- 15:19:27.375 DEBUG: RemoveBrowserWindow(): hwnd = 329020
+- 15:19:27.390 DEBUG: GetBrowserWindow(): not found, hwnd = 329020
+- 15:19:27.390 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 15:19:27.406 DEBUG: Calling CefQuitMessageLoop()
+- 15:19:27.656 INFO: Ended application
+- 15:19:27.656 INFO: --------------------------------------------------------
+- 15:21:42.078 INFO: --------------------------------------------------------
+- 15:21:42.094 INFO: Started application
+- 15:21:42.094 INFO: Logging to: G:\PHP_DESKTOP\onex-billing\debug.log
+- 15:21:42.094 INFO: Log level = DEBUG4
+- 15:21:42.094 INFO: Starting Mongoose 3.9c web server
+- 15:21:42.094 INFO: WWW directory: G:\PHP_DESKTOP\onex-billing\www
+- 15:21:42.094 INFO: Index files: index.html,index.php
+- 15:21:42.094 INFO: CGI interpreter: G:\PHP_DESKTOP\onex-billing\php\php-cgi.exe
+- 15:21:42.094 INFO: CGI pattern: **.php$
+- 15:21:42.110 INFO: Hide files patterns: 
+- 15:21:42.110 INFO: CGI environment variables set: TMP=C:\Users\Arindam\AppData\Local\Temp\,TEMP=C:\Users\Arindam\AppData\Local\Temp\,TMPDIR=C:\Users\Arindam\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 15:21:42.110 INFO: Web server url: http://127.0.0.1:52001/
+- 15:21:42.125 INFO: remote_debugging_port = 58435
+- 15:21:42.125 DEBUG: Command line string for the browser process: "G:\PHP_DESKTOP\onex-billing\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="G:\PHP_DESKTOP\onex-billing\debug.log" --remote-debugging-port=58435
+- 15:21:42.235 DEBUG: App::OnContextInitialized()
+- 15:21:42.235 DEBUG: Window max width/height = 1286/680
+- 15:21:42.235 DEBUG: GetBrowserWindow(): not found, hwnd = 590258
+- 15:21:42.235 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 15:21:42.235 DEBUG: BrowserWindow::CreateBrowserControl()
+- 15:21:42.235 DEBUG: StoreBrowserWindow(): hwnd = 590258
+- 15:21:42.313 DEBUG: ClientHandler::OnAfterCreated()
+- 15:21:42.328 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 15:21:42.000 DEBUG: Command line string for the gpu-process process: "G:\PHP_DESKTOP\onex-billing\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="G:\PHP_DESKTOP\onex-billing\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=26.20.100.7810 --gpu-driver-date=1-21-2020 --lang=en-US --log-file="G:\PHP_DESKTOP\onex-billing\debug.log" --service-request-channel-token=579AF21D23EF4FC413AAFA4533619F38 --mojo-platform-channel-handle=1792 /prefetch:2
+- 15:21:42.344 DEBUG: OnLoadingStateChange: loading=1, url=
+- 15:21:42.016 DEBUG: Command line string for the renderer process: "G:\PHP_DESKTOP\onex-billing\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=5E81A985597FE342686E889FBC3AB66B --lang=en-US --lang=en-US --log-file="G:\PHP_DESKTOP\onex-billing\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=5E81A985597FE342686E889FBC3AB66B --renderer-client-id=3 --mojo-platform-channel-handle=2396 /prefetch:1
+- 15:21:42.063 DEBUG: OnBrowserCreated()
+[0516/152142.776:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 15:21:44.500 INFO: GET 200 /public/master-assets/pace-progress/themes/black/pace-theme-minimal.css
+- 15:21:44.500 INFO: GET 200 /public/master-assets/style-fix.css
+- 15:21:44.500 INFO: GET 200 /public/master-assets/jquery/jquery.min.js
+- 15:21:44.500 INFO: GET 200 /public/master-assets/bootstrap/js/bootstrap.bundle.min.js
+- 15:21:44.500 INFO: GET 200 /public/master-assets/css/adminlte.min.css
+- 15:21:44.094 DEBUG: OnContextCreated()
+- 15:21:44.500 INFO: GET 200 /public/master-assets/pace-progress/pace.min.js
+- 15:21:44.500 INFO: GET 200 /public/master-assets/script-fix.js
+- 15:21:44.516 INFO: GET 404 /
+[0516/152145.380:INFO:CONSOLE(2)] "jQuery.Deferred exception: $(...).select2 is not a function", source: http://127.0.0.1:52001/public/master-assets/jquery/jquery.min.js (2)
+- 15:21:45.078 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52001/
+[0516/152145.392:INFO:CONSOLE(2)] "Uncaught TypeError: $(...).select2 is not a function", source: http://127.0.0.1:52001/public/master-assets/jquery/jquery.min.js (2)
+- 15:21:47.656 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52001/
+- 15:21:49.844 DEBUG: OnContextCreated()
+- 15:21:49.266 INFO: GET 200 /administrator/auth
+- 15:21:49.344 INFO: GET 200 /public/master-assets/fontawesome/css/all.min.css
+- 15:21:49.422 INFO: GET 200 /public/master-assets/toastr/toastr.min.css
+- 15:21:49.563 INFO: GET 200 /public/master-assets/toastr/toastr.min.js
+- 15:21:49.672 INFO: GET 200 /public/images/logo-sigin-256.png
+- 15:21:50.219 INFO: GET 200 /public/master-assets/fontawesome/webfonts/fa-solid-900.woff2
+- 15:21:51.719 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52001/administrator/auth
+- 15:22:07.750 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52001/administrator/auth
+- 15:22:09.938 INFO: POST 302 /administrator/auth/signin-process
+- 15:22:12.360 DEBUG: OnContextCreated()
+- 15:22:12.766 INFO: GET 200 /auth/my-account
+- 15:22:12.813 INFO: GET 200 /public/master-assets/flag-icon-css/css/flag-icon.min.css
+- 15:22:12.828 INFO: GET 200 /public/master-assets/overlayScrollbars/css/OverlayScrollbars.min.css
+- 15:22:12.828 INFO: GET 200 /public/master-assets/select2/css/select2.min.css
+- 15:22:12.078 INFO: GET 200 /public/master-assets/overlayScrollbars/js/jquery.overlayScrollbars.min.js
+- 15:22:12.110 INFO: GET 200 /public/images/logo-navbar-32.png
+- 15:22:12.141 INFO: GET 200 /public/master-assets/js/adminlte.min.js
+- 15:22:12.141 INFO: GET 200 /public/master-assets/select2/js/select2.full.min.js
+- 15:22:12.172 INFO: GET 200 /public/images/client_logo.jpeg
+- 15:22:12.172 INFO: GET 200 /public/images/dummy-user-160.png
+- 15:22:12.250 INFO: GET 200 /public/master-assets/fontawesome/webfonts/fa-regular-400.woff2
+- 15:22:12.641 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52001/auth/my-account
+- 15:22:21.110 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52001/auth/my-account
+- 15:22:22.204 DEBUG: OnContextCreated()
+- 15:22:22.610 INFO: GET 200 /auth/my-account/purchase
+- 15:22:23.266 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52001/auth/my-account/purchase
+- 15:22:27.328 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52001/auth/my-account/purchase
+- 15:22:28.079 DEBUG: OnContextCreated()
+- 15:22:28.500 INFO: GET 200 /auth/my-account/purchase/add
+- 15:22:28.531 INFO: GET 200 /public/master-assets/bs-datepicker/css/bootstrap-datepicker3.min.css
+- 15:22:28.641 INFO: GET 200 /public/master-assets/bs-datepicker/js/bootstrap-datepicker.min.js
+- 15:22:29.844 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52001/auth/my-account/purchase/add
+[0516/152319.301:INFO:CONSOLE(2)] "The specified value "NaN" is not a valid number. The value must match to the following regular expression: -?(\d+|\d+\.\d+|\.\d+)([eE][-+]?\d+)?", source: http://127.0.0.1:52001/public/master-assets/jquery/jquery.min.js (2)
+[0516/152319.302:INFO:CONSOLE(2)] "The specified value "NaN" is not a valid number. The value must match to the following regular expression: -?(\d+|\d+\.\d+|\.\d+)([eE][-+]?\d+)?", source: http://127.0.0.1:52001/public/master-assets/jquery/jquery.min.js (2)
+[0516/152319.303:INFO:CONSOLE(2)] "The specified value "NaN" is not a valid number. The value must match to the following regular expression: -?(\d+|\d+\.\d+|\.\d+)([eE][-+]?\d+)?", source: http://127.0.0.1:52001/public/master-assets/jquery/jquery.min.js (2)
+[0516/152319.303:INFO:CONSOLE(2)] "The specified value "NaN" is not a valid number. The value must match to the following regular expression: -?(\d+|\d+\.\d+|\.\d+)([eE][-+]?\d+)?", source: http://127.0.0.1:52001/public/master-assets/jquery/jquery.min.js (2)
+[0516/152324.433:INFO:CONSOLE(2)] "The specified value "NaN" is not a valid number. The value must match to the following regular expression: -?(\d+|\d+\.\d+|\.\d+)([eE][-+]?\d+)?", source: http://127.0.0.1:52001/public/master-assets/jquery/jquery.min.js (2)
+[0516/152324.433:INFO:CONSOLE(2)] "The specified value "NaN" is not a valid number. The value must match to the following regular expression: -?(\d+|\d+\.\d+|\.\d+)([eE][-+]?\d+)?", source: http://127.0.0.1:52001/public/master-assets/jquery/jquery.min.js (2)
+- 15:24:05.110 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52001/auth/my-account/purchase/add
+- 15:24:08.110 INFO: POST 302 /auth/my-account/purchase/add
+- 15:24:08.125 DEBUG: OnContextCreated()
+- 15:24:08.547 INFO: GET 200 /auth/my-account/purchase/add
+- 15:24:09.641 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52001/auth/my-account/purchase/add
+- 15:24:15.594 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52001/auth/my-account/purchase/add
+- 15:24:16.985 DEBUG: OnContextCreated()
+- 15:24:16.391 INFO: GET 200 /auth/my-account/purchase
+- 15:24:17.781 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52001/auth/my-account/purchase
+- 15:32:05.281 DEBUG: WM_DESTROY
+- 15:32:05.281 DEBUG: RemoveBrowserWindow(): hwnd = 590258
+- 15:32:05.297 INFO: Stopping Mongoose web server
+- 15:32:05.297 DEBUG: Mongoose webserver stopped immediately
+- 15:32:05.328 DEBUG: OnBeforeClose() hwnd=394230
+- 15:32:05.328 DEBUG: RemoveBrowserWindow(): hwnd = 394230
+- 15:32:05.344 DEBUG: GetBrowserWindow(): not found, hwnd = 394230
+- 15:32:05.344 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 15:32:05.344 DEBUG: Calling CefQuitMessageLoop()
+- 15:32:05.282 DEBUG: OnBrowserDestroyed()
+- 15:32:06.172 INFO: Ended application
+- 15:32:06.172 INFO: --------------------------------------------------------
+- 15:32:16.235 INFO: --------------------------------------------------------
+- 15:32:16.235 INFO: Started application
+- 15:32:16.235 INFO: Logging to: G:\PHP_DESKTOP\onex-billing\debug.log
+- 15:32:16.235 INFO: Log level = DEBUG4
+- 15:32:16.235 INFO: Starting Mongoose 3.9c web server
+- 15:32:16.235 INFO: WWW directory: G:\PHP_DESKTOP\onex-billing\www
+- 15:32:16.235 INFO: Index files: index.html,index.php
+- 15:32:16.235 INFO: CGI interpreter: G:\PHP_DESKTOP\onex-billing\php\php-cgi.exe
+- 15:32:16.235 INFO: CGI pattern: **.php$
+- 15:32:16.235 INFO: Hide files patterns: 
+- 15:32:16.235 INFO: CGI environment variables set: TMP=C:\Users\Arindam\AppData\Local\Temp\,TEMP=C:\Users\Arindam\AppData\Local\Temp\,TMPDIR=C:\Users\Arindam\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 15:32:16.250 INFO: Web server url: http://127.0.0.1:52315/
+- 15:32:16.266 INFO: remote_debugging_port = 64249
+- 15:32:16.266 DEBUG: Command line string for the browser process: "G:\PHP_DESKTOP\onex-billing\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="G:\PHP_DESKTOP\onex-billing\debug.log" --remote-debugging-port=64249
+- 15:32:16.360 DEBUG: App::OnContextInitialized()
+- 15:32:16.360 DEBUG: Window max width/height = 1286/680
+- 15:32:16.360 DEBUG: GetBrowserWindow(): not found, hwnd = 459892
+- 15:32:16.360 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 15:32:16.360 DEBUG: BrowserWindow::CreateBrowserControl()
+- 15:32:16.360 DEBUG: StoreBrowserWindow(): hwnd = 459892
+- 15:32:16.469 DEBUG: ClientHandler::OnAfterCreated()
+- 15:32:16.469 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 15:32:16.000 DEBUG: Command line string for the gpu-process process: "G:\PHP_DESKTOP\onex-billing\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="G:\PHP_DESKTOP\onex-billing\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=26.20.100.7810 --gpu-driver-date=1-21-2020 --lang=en-US --log-file="G:\PHP_DESKTOP\onex-billing\debug.log" --service-request-channel-token=F4762F44C12769688349941299DEBB28 --mojo-platform-channel-handle=1808 /prefetch:2
+- 15:32:16.500 DEBUG: OnLoadingStateChange: loading=1, url=
+- 15:32:16.000 DEBUG: Command line string for the renderer process: "G:\PHP_DESKTOP\onex-billing\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=B05283005692C771C2CB3C43DEDFBDE2 --lang=en-US --lang=en-US --log-file="G:\PHP_DESKTOP\onex-billing\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=B05283005692C771C2CB3C43DEDFBDE2 --renderer-client-id=3 --mojo-platform-channel-handle=2352 /prefetch:1
+- 15:32:16.062 DEBUG: OnBrowserCreated()
+[0516/153216.595:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 15:32:22.719 INFO: GET 200 /public/master-assets/pace-progress/themes/black/pace-theme-minimal.css
+- 15:32:22.719 INFO: GET 200 /public/master-assets/jquery/jquery.min.js
+- 15:32:22.719 INFO: GET 200 /public/master-assets/style-fix.css
+- 15:32:22.719 INFO: GET 200 /public/master-assets/bootstrap/js/bootstrap.bundle.min.js
+- 15:32:22.735 INFO: GET 200 /public/master-assets/css/adminlte.min.css
+- 15:32:22.735 INFO: GET 200 /public/master-assets/pace-progress/pace.min.js
+- 15:32:22.172 DEBUG: OnContextCreated()
+- 15:32:22.750 INFO: GET 404 /
+- 15:32:22.750 INFO: GET 200 /public/master-assets/script-fix.js
+[0516/153223.007:INFO:CONSOLE(2)] "jQuery.Deferred exception: $(...).select2 is not a function", source: http://127.0.0.1:52315/public/master-assets/jquery/jquery.min.js (2)
+- 15:32:23.078 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52315/
+[0516/153223.017:INFO:CONSOLE(2)] "Uncaught TypeError: $(...).select2 is not a function", source: http://127.0.0.1:52315/public/master-assets/jquery/jquery.min.js (2)
+- 15:32:25.156 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52315/
+- 15:32:26.141 INFO: GET 302 /administrator/auth
+- 15:32:26.453 DEBUG: OnContextCreated()
+- 15:32:26.031 INFO: GET 200 /auth/my-account
+- 15:32:26.063 INFO: GET 200 /public/master-assets/fontawesome/css/all.min.css
+- 15:32:27.094 INFO: GET 200 /public/master-assets/flag-icon-css/css/flag-icon.min.css
+- 15:32:27.110 INFO: GET 200 /public/master-assets/overlayScrollbars/css/OverlayScrollbars.min.css
+- 15:32:27.110 INFO: GET 200 /public/master-assets/toastr/toastr.min.css
+- 15:32:27.125 INFO: GET 200 /public/master-assets/select2/css/select2.min.css
+- 15:32:27.141 INFO: GET 200 /public/master-assets/overlayScrollbars/js/jquery.overlayScrollbars.min.js
+- 15:32:27.172 INFO: GET 200 /public/master-assets/select2/js/select2.full.min.js
+- 15:32:27.172 INFO: GET 200 /public/master-assets/js/adminlte.min.js
+- 15:32:27.203 INFO: GET 200 /public/master-assets/toastr/toastr.min.js
+- 15:32:27.250 INFO: GET 200 /public/images/dummy-user-160.png
+- 15:32:27.266 INFO: GET 200 /public/images/logo-navbar-32.png
+- 15:32:27.281 INFO: GET 200 /public/images/client_logo.jpeg
+- 15:32:27.063 INFO: GET 200 /public/master-assets/fontawesome/webfonts/fa-solid-900.woff2
+- 15:32:27.063 INFO: GET 200 /public/master-assets/fontawesome/webfonts/fa-regular-400.woff2
+- 15:32:28.422 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52315/auth/my-account
+- 15:32:36.625 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52315/auth/my-account
+- 15:32:38.297 DEBUG: OnContextCreated()
+- 15:32:38.875 INFO: GET 200 /auth/my-account/purchase
+- 15:32:39.375 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52315/auth/my-account/purchase
+- 15:32:41.500 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52315/auth/my-account/purchase
+- 15:32:42.781 DEBUG: OnContextCreated()
+- 15:32:42.375 INFO: GET 200 /auth/my-account/purchase/add
+- 15:32:42.406 INFO: GET 200 /public/master-assets/bs-datepicker/css/bootstrap-datepicker3.min.css
+- 15:32:42.406 INFO: GET 200 /public/master-assets/bs-datepicker/js/bootstrap-datepicker.min.js
+- 15:32:42.766 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52315/auth/my-account/purchase/add
+- 15:33:20.125 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52315/auth/my-account/purchase/add
+- 15:33:21.390 DEBUG: OnContextCreated()
+- 15:33:21.953 INFO: GET 200 /auth/my-account/users
+- 15:33:22.438 INFO: GET 200 /public/master-assets/fontawesome/webfonts/fa-brands-400.woff2
+- 15:33:22.531 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52315/auth/my-account/users
+- 15:33:24.922 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52315/auth/my-account/users
+- 15:33:25.203 DEBUG: OnContextCreated()
+- 15:33:25.766 INFO: GET 200 /auth/my-account/users/add
+- 15:33:26.125 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52315/auth/my-account/users/add
+- 15:34:34.969 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52315/auth/my-account/users/add
+- 15:34:39.515 DEBUG: OnContextCreated()
+- 15:34:39.156 INFO: GET 200 /auth/my-account/barcode/products
+- 15:34:39.516 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52315/auth/my-account/barcode/products
+- 15:34:44.953 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52315/auth/my-account/barcode/products
+- 15:34:46.203 INFO: GET 200 /auth/my-account/barcode/products?code=PU0000000370&color=black
+- 15:34:46.640 DEBUG: OnContextCreated()
+- 15:34:46.735 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52315/auth/my-account/barcode/products?code=PU0000000370&color=black
+- 15:34:54.735 INFO: About to download a file: PU0000000370.svg
+- 15:35:01.766 INFO: Download was cancelled
+- 15:35:02.031 INFO: About to download a file: PU0000000370.png
+- 15:35:06.094 INFO: Download was cancelled
+- 15:36:30.969 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52315/auth/my-account/barcode/products?code=PU0000000370&color=black
+- 15:36:36.593 DEBUG: OnContextCreated()
+- 15:36:36.188 INFO: GET 200 /auth/my-account/purchase
+- 15:36:36.500 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52315/auth/my-account/purchase
+- 15:36:40.610 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52315/auth/my-account/purchase
+- 15:36:41.687 DEBUG: OnContextCreated()
+- 15:36:41.250 INFO: GET 200 /auth/my-account/users/add
+- 15:36:41.547 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52315/auth/my-account/users/add
+- 15:36:50.250 DEBUG: ClientHandler::OnAfterCreated()
+- 15:36:50.266 DEBUG: GetBrowserWindow(): not found, hwnd = 984382
+- 15:36:50.266 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 15:36:50.266 DEBUG: StoreBrowserWindow(): hwnd = 984382
+- 15:36:50.281 DEBUG: Centering popup window relative to its parent
+- 15:36:50.344 DEBUG: OnLoadingStateChange: loading=1, url=
+- 15:36:50.000 DEBUG: Command line string for the renderer process: "G:\PHP_DESKTOP\onex-billing\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=485DB78BA8359186336826A97EC33D68 --lang=en-US --lang=en-US --log-file="G:\PHP_DESKTOP\onex-billing\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=485DB78BA8359186336826A97EC33D68 --renderer-client-id=4 --mojo-platform-channel-handle=3628 /prefetch:1
+- 15:36:50.110 DEBUG: OnBrowserCreated()
+- 15:36:50.172 DEBUG: OnContextCreated()
+- 15:36:51.172 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 15:36:52.250 INFO: GET 200 /public/master-assets/css/adminlte.min.css.map
+- 15:38:17.406 DEBUG: OnBeforeClose() hwnd=984382
+- 15:38:17.406 DEBUG: RemoveBrowserWindow(): hwnd = 984382
+- 15:38:17.391 DEBUG: OnBrowserDestroyed()
+- 15:38:23.938 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52315/auth/my-account/users/add
+- 15:38:25.453 DEBUG: OnContextCreated()
+- 15:38:25.016 INFO: GET 200 /auth/my-account/products/variants
+- 15:38:25.063 INFO: GET 200 /public/images/blank_image.png
+- 15:38:26.125 INFO: GET 200 /public/uploads/images/products/thumbnail/product_image__1713802010.png
+- 15:38:26.625 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52315/auth/my-account/products/variants
+- 15:38:28.563 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52315/auth/my-account/products/variants
+- 15:38:29.859 DEBUG: OnContextCreated()
+- 15:38:29.422 INFO: GET 200 /auth/my-account/products/variants/add
+- 15:38:30.094 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52315/auth/my-account/products/variants/add
+- 15:38:56.188 DEBUG: ClientHandler::OnAfterCreated()
+- 15:38:56.188 DEBUG: GetBrowserWindow(): not found, hwnd = 722046
+- 15:38:56.188 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 15:38:56.188 DEBUG: StoreBrowserWindow(): hwnd = 722046
+- 15:38:56.203 DEBUG: Centering popup window relative to its parent
+- 15:38:56.250 DEBUG: OnLoadingStateChange: loading=1, url=
+- 15:38:56.000 DEBUG: Command line string for the renderer process: "G:\PHP_DESKTOP\onex-billing\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=A29BDE1D84466A0480C257A42E77FC0D --lang=en-US --lang=en-US --log-file="G:\PHP_DESKTOP\onex-billing\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=A29BDE1D84466A0480C257A42E77FC0D --renderer-client-id=5 --mojo-platform-channel-handle=3832 /prefetch:1
+- 15:38:56.031 DEBUG: OnBrowserCreated()
+- 15:38:56.062 DEBUG: OnContextCreated()
+- 15:38:56.578 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 15:39:36.531 DEBUG: OnBeforeClose() hwnd=722046
+- 15:39:36.531 DEBUG: RemoveBrowserWindow(): hwnd = 722046
+- 15:39:54.656 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52315/auth/my-account/products/variants/add
+- 15:39:56.484 DEBUG: OnContextCreated()
+- 15:39:56.063 INFO: GET 200 /auth/my-account/purchase/add
+- 15:39:57.469 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52315/auth/my-account/purchase/add
+[0516/154017.881:INFO:CONSOLE(2)] "The specified value "NaN" is not a valid number. The value must match to the following regular expression: -?(\d+|\d+\.\d+|\.\d+)([eE][-+]?\d+)?", source: http://127.0.0.1:52315/public/master-assets/jquery/jquery.min.js (2)
+[0516/154017.881:INFO:CONSOLE(2)] "The specified value "NaN" is not a valid number. The value must match to the following regular expression: -?(\d+|\d+\.\d+|\.\d+)([eE][-+]?\d+)?", source: http://127.0.0.1:52315/public/master-assets/jquery/jquery.min.js (2)
+[0516/154017.881:INFO:CONSOLE(2)] "The specified value "NaN" is not a valid number. The value must match to the following regular expression: -?(\d+|\d+\.\d+|\.\d+)([eE][-+]?\d+)?", source: http://127.0.0.1:52315/public/master-assets/jquery/jquery.min.js (2)
+[0516/154017.881:INFO:CONSOLE(2)] "The specified value "NaN" is not a valid number. The value must match to the following regular expression: -?(\d+|\d+\.\d+|\.\d+)([eE][-+]?\d+)?", source: http://127.0.0.1:52315/public/master-assets/jquery/jquery.min.js (2)
+[0516/154022.717:INFO:CONSOLE(2)] "The specified value "NaN" is not a valid number. The value must match to the following regular expression: -?(\d+|\d+\.\d+|\.\d+)([eE][-+]?\d+)?", source: http://127.0.0.1:52315/public/master-assets/jquery/jquery.min.js (2)
+[0516/154022.717:INFO:CONSOLE(2)] "The specified value "NaN" is not a valid number. The value must match to the following regular expression: -?(\d+|\d+\.\d+|\.\d+)([eE][-+]?\d+)?", source: http://127.0.0.1:52315/public/master-assets/jquery/jquery.min.js (2)
+- 15:40:59.781 DEBUG: ClientHandler::OnAfterCreated()
+- 15:40:59.781 DEBUG: GetBrowserWindow(): not found, hwnd = 1115204
+- 15:40:59.797 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 15:40:59.797 DEBUG: StoreBrowserWindow(): hwnd = 1115204
+- 15:40:59.813 DEBUG: Centering popup window relative to its parent
+- 15:40:59.844 DEBUG: OnLoadingStateChange: loading=1, url=
+- 15:41:00.000 DEBUG: Command line string for the renderer process: "G:\PHP_DESKTOP\onex-billing\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=FCB80E56C1E5D8760BD86C9BB1CC551C --lang=en-US --lang=en-US --log-file="G:\PHP_DESKTOP\onex-billing\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=FCB80E56C1E5D8760BD86C9BB1CC551C --renderer-client-id=6 --mojo-platform-channel-handle=4904 /prefetch:1
+- 15:41:00.063 DEBUG: OnBrowserCreated()
+- 15:41:00.078 DEBUG: OnContextCreated()
+- 15:41:00.625 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 16:08:55.500 DEBUG: OnBeforeClose() hwnd=1115204
+- 16:08:55.610 DEBUG: RemoveBrowserWindow(): hwnd = 1115204
+- 16:08:55.641 DEBUG: WM_DESTROY
+- 16:08:55.641 DEBUG: RemoveBrowserWindow(): hwnd = 459892
+- 16:08:55.656 INFO: Stopping Mongoose web server
+- 16:08:55.656 DEBUG: Mongoose webserver stopped immediately
+- 16:08:55.656 DEBUG: OnBeforeClose() hwnd=1311770
+- 16:08:55.656 DEBUG: RemoveBrowserWindow(): hwnd = 1311770
+- 16:08:55.656 DEBUG: GetBrowserWindow(): not found, hwnd = 1311770
+- 16:08:55.656 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 16:08:55.656 DEBUG: Calling CefQuitMessageLoop()
+- 16:08:56.110 INFO: Ended application
+- 16:08:56.110 INFO: --------------------------------------------------------
+- 16:09:10.125 INFO: --------------------------------------------------------
+- 16:09:10.125 INFO: Started application
+- 16:09:10.125 INFO: Logging to: G:\PHP_DESKTOP\onex-billing\debug.log
+- 16:09:10.125 INFO: Log level = DEBUG4
+- 16:09:10.125 INFO: Starting Mongoose 3.9c web server
+- 16:09:10.125 INFO: WWW directory: G:\PHP_DESKTOP\onex-billing\www
+- 16:09:10.125 INFO: Index files: index.html,index.php
+- 16:09:10.125 INFO: CGI interpreter: G:\PHP_DESKTOP\onex-billing\php\php-cgi.exe
+- 16:09:10.125 INFO: CGI pattern: **.php$
+- 16:09:10.125 INFO: Hide files patterns: 
+- 16:09:10.125 INFO: CGI environment variables set: TMP=C:\Users\Arindam\AppData\Local\Temp\,TEMP=C:\Users\Arindam\AppData\Local\Temp\,TMPDIR=C:\Users\Arindam\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 16:09:10.140 INFO: Web server url: http://127.0.0.1:52574/
+- 16:09:10.156 INFO: remote_debugging_port = 60518
+- 16:09:10.156 DEBUG: Command line string for the browser process: "G:\PHP_DESKTOP\onex-billing\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="G:\PHP_DESKTOP\onex-billing\debug.log" --remote-debugging-port=60518
+- 16:09:11.390 DEBUG: App::OnContextInitialized()
+- 16:09:11.390 DEBUG: Window max width/height = 1286/680
+- 16:09:11.406 DEBUG: GetBrowserWindow(): not found, hwnd = 721330
+- 16:09:11.406 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 16:09:11.406 DEBUG: BrowserWindow::CreateBrowserControl()
+- 16:09:11.406 DEBUG: StoreBrowserWindow(): hwnd = 721330
+- 16:09:11.484 DEBUG: ClientHandler::OnAfterCreated()
+- 16:09:11.500 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 16:09:11.000 DEBUG: Command line string for the gpu-process process: "G:\PHP_DESKTOP\onex-billing\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="G:\PHP_DESKTOP\onex-billing\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=26.20.100.7810 --gpu-driver-date=1-21-2020 --lang=en-US --log-file="G:\PHP_DESKTOP\onex-billing\debug.log" --service-request-channel-token=D312BCE4B5E0294449DE58B5FA645A25 --mojo-platform-channel-handle=1808 /prefetch:2
+- 16:09:11.515 DEBUG: OnLoadingStateChange: loading=1, url=
+- 16:09:11.000 DEBUG: Command line string for the renderer process: "G:\PHP_DESKTOP\onex-billing\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=3C04CCC176C31A891D6A69842B3AFC21 --lang=en-US --lang=en-US --log-file="G:\PHP_DESKTOP\onex-billing\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=3C04CCC176C31A891D6A69842B3AFC21 --renderer-client-id=3 --mojo-platform-channel-handle=2400 /prefetch:1
+- 16:09:11.047 DEBUG: OnBrowserCreated()
+[0516/160911.519:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 16:09:13.984 INFO: GET 200 /public/master-assets/pace-progress/themes/black/pace-theme-minimal.css
+- 16:09:13.984 INFO: GET 200 /public/master-assets/style-fix.css
+- 16:09:13.984 INFO: GET 200 /public/master-assets/jquery/jquery.min.js
+- 16:09:13.984 INFO: GET 200 /public/master-assets/bootstrap/js/bootstrap.bundle.min.js
+- 16:09:13.984 INFO: GET 200 /public/master-assets/pace-progress/pace.min.js
+- 16:09:13.984 INFO: GET 200 /public/master-assets/css/adminlte.min.css
+- 16:09:13.000 INFO: GET 200 /public/master-assets/script-fix.js
+- 16:09:13.422 DEBUG: OnContextCreated()
+- 16:09:13.218 INFO: GET 404 /
+- 16:09:14.328 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52574/
+[0516/160914.078:INFO:CONSOLE(2)] "jQuery.Deferred exception: $(...).select2 is not a function", source: http://127.0.0.1:52574/public/master-assets/jquery/jquery.min.js (2)
+[0516/160914.082:INFO:CONSOLE(2)] "Uncaught TypeError: $(...).select2 is not a function", source: http://127.0.0.1:52574/public/master-assets/jquery/jquery.min.js (2)
+- 16:09:17.531 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52574/
+- 16:09:18.625 INFO: GET 302 /administrator/auth
+- 16:09:19.703 DEBUG: OnContextCreated()
+- 16:09:19.297 INFO: GET 200 /auth/my-account
+- 16:09:19.328 INFO: GET 200 /public/master-assets/fontawesome/css/all.min.css
+- 16:09:19.343 INFO: GET 200 /public/master-assets/sweetalert2/sweetalert2.min.css
+- 16:09:19.375 INFO: GET 200 /public/master-assets/toastr/toastr.min.css
+- 16:09:19.390 INFO: GET 200 /public/master-assets/overlayScrollbars/css/OverlayScrollbars.min.css
+- 16:09:19.390 INFO: GET 200 /public/master-assets/flag-icon-css/css/flag-icon.min.css
+- 16:09:19.406 INFO: GET 200 /public/master-assets/select2/css/select2.min.css
+- 16:09:19.422 INFO: GET 200 /public/master-assets/overlayScrollbars/js/jquery.overlayScrollbars.min.js
+- 16:09:19.468 INFO: GET 200 /public/master-assets/select2/js/select2.full.min.js
+- 16:09:19.484 INFO: GET 200 /public/master-assets/js/adminlte.min.js
+- 16:09:19.500 INFO: GET 200 /public/master-assets/toastr/toastr.min.js
+- 16:09:19.578 INFO: GET 200 /public/master-assets/sweetalert2/sweetalert2.all.min.js
+- 16:09:19.656 INFO: GET 200 /public/images/dummy-user-160.png
+- 16:09:19.672 INFO: GET 200 /public/images/client_logo.jpeg
+- 16:09:19.687 INFO: GET 200 /public/images/logo-navbar-32.png
+- 16:09:19.781 INFO: GET 200 /public/master-assets/fontawesome/webfonts/fa-solid-900.woff2
+- 16:09:19.797 INFO: GET 200 /public/master-assets/fontawesome/webfonts/fa-regular-400.woff2
+- 16:09:19.187 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52574/auth/my-account
+- 16:09:32.078 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52574/auth/my-account
+- 16:09:33.250 DEBUG: OnContextCreated()
+- 16:09:33.843 INFO: GET 200 /auth/my-account/products/variants
+- 16:09:33.922 INFO: GET 200 /public/images/blank_image.png
+- 16:09:33.953 INFO: GET 200 /public/uploads/images/products/thumbnail/product_image__1713802010.png
+- 16:09:34.328 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52574/auth/my-account/products/variants
+- 16:09:36.218 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52574/auth/my-account/products/variants
+- 16:09:37.265 DEBUG: OnContextCreated()
+- 16:09:37.859 INFO: GET 200 /auth/my-account/products/variants/add
+- 16:09:37.250 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52574/auth/my-account/products/variants/add
+- 16:09:48.000 DEBUG: F5 pressed, reloading page
+- 16:09:48.000 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52574/auth/my-account/products/variants/add
+- 16:09:49.281 DEBUG: F5 pressed, reloading page
+- 16:09:49.281 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:52574/auth/my-account/products/variants/add
+- 16:09:49.297 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52574/auth/my-account/products/variants/add
+- 16:09:49.297 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52574/auth/my-account/products/variants/add
+- 16:09:49.500 DEBUG: F5 pressed, reloading page
+- 16:09:49.500 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:52574/auth/my-account/products/variants/add
+- 16:09:49.500 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52574/auth/my-account/products/variants/add
+- 16:09:49.500 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52574/auth/my-account/products/variants/add
+- 16:09:49.515 INFO: GET 200 /auth/my-account/products/variants/add
+- 16:09:49.672 DEBUG: F5 pressed, reloading page
+- 16:09:49.672 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:52574/auth/my-account/products/variants/add
+- 16:09:49.672 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52574/auth/my-account/products/variants/add
+- 16:09:49.687 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52574/auth/my-account/products/variants/add
+- 16:09:49.781 INFO: GET 200 /auth/my-account/products/variants/add
+- 16:09:49.953 INFO: GET 200 /auth/my-account/products/variants/add
+- 16:09:49.047 DEBUG: F5 pressed, reloading page
+- 16:09:49.047 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:52574/auth/my-account/products/variants/add
+- 16:09:49.047 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52574/auth/my-account/products/variants/add
+- 16:09:49.047 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52574/auth/my-account/products/variants/add
+- 16:09:49.109 INFO: GET 200 /auth/my-account/products/variants/add
+- 16:09:49.218 DEBUG: F5 pressed, reloading page
+- 16:09:49.218 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:52574/auth/my-account/products/variants/add
+- 16:09:49.218 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52574/auth/my-account/products/variants/add
+- 16:09:49.218 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52574/auth/my-account/products/variants/add
+- 16:09:50.468 INFO: GET 200 /auth/my-account/products/variants/add
+- 16:09:50.047 DEBUG: OnContextCreated()
+- 16:09:50.640 INFO: GET 200 /auth/my-account/products/variants/add
+- 16:09:50.640 INFO: GET 200 /public/master-assets/fontawesome/css/all.min.css
+- 16:09:50.640 INFO: GET 200 /public/master-assets/pace-progress/themes/black/pace-theme-minimal.css
+- 16:09:50.640 INFO: GET 200 /public/master-assets/overlayScrollbars/css/OverlayScrollbars.min.css
+- 16:09:50.640 INFO: GET 200 /public/master-assets/flag-icon-css/css/flag-icon.min.css
+- 16:09:50.656 INFO: GET 200 /public/master-assets/css/adminlte.min.css
+- 16:09:50.656 INFO: GET 200 /public/master-assets/toastr/toastr.min.css
+- 16:09:50.656 INFO: GET 200 /public/master-assets/select2/css/select2.min.css
+- 16:09:50.656 INFO: GET 200 /public/master-assets/sweetalert2/sweetalert2.min.css
+- 16:09:50.656 INFO: GET 200 /public/master-assets/style-fix.css
+- 16:09:50.656 INFO: GET 200 /public/master-assets/jquery/jquery.min.js
+- 16:09:50.031 INFO: GET 200 /public/master-assets/bootstrap/js/bootstrap.bundle.min.js
+- 16:09:50.031 INFO: GET 200 /public/master-assets/pace-progress/pace.min.js
+- 16:09:50.140 INFO: GET 200 /public/master-assets/overlayScrollbars/js/jquery.overlayScrollbars.min.js
+- 16:09:50.140 INFO: GET 200 /public/master-assets/select2/js/select2.full.min.js
+- 16:09:50.156 INFO: GET 200 /public/master-assets/js/adminlte.min.js
+- 16:09:50.156 INFO: GET 200 /public/master-assets/toastr/toastr.min.js
+- 16:09:50.156 INFO: GET 200 /public/master-assets/sweetalert2/sweetalert2.all.min.js
+- 16:09:50.187 INFO: GET 200 /public/master-assets/script-fix.js
+- 16:09:50.187 INFO: GET 200 /public/images/dummy-user-160.png
+- 16:09:50.187 INFO: GET 200 /public/images/logo-navbar-32.png
+- 16:09:50.187 INFO: GET 200 /public/images/client_logo.jpeg
+- 16:09:51.343 INFO: GET 200 /public/master-assets/fontawesome/webfonts/fa-solid-900.woff2
+- 16:09:51.343 INFO: GET 200 /public/master-assets/fontawesome/webfonts/fa-regular-400.woff2
+- 16:09:51.547 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52574/auth/my-account/products/variants/add
+- 16:10:28.812 DEBUG: ClientHandler::OnAfterCreated()
+- 16:10:28.812 DEBUG: GetBrowserWindow(): not found, hwnd = 1180790
+- 16:10:28.812 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 16:10:28.812 DEBUG: StoreBrowserWindow(): hwnd = 1180790
+- 16:10:28.828 DEBUG: Centering popup window relative to its parent
+- 16:10:28.875 DEBUG: OnLoadingStateChange: loading=1, url=
+- 16:10:28.000 DEBUG: Command line string for the renderer process: "G:\PHP_DESKTOP\onex-billing\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=2B40976AF3BE4EE0A2F8440966FC4DBA --lang=en-US --lang=en-US --log-file="G:\PHP_DESKTOP\onex-billing\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=2B40976AF3BE4EE0A2F8440966FC4DBA --renderer-client-id=4 --mojo-platform-channel-handle=3948 /prefetch:1
+- 16:10:28.032 DEBUG: OnBrowserCreated()
+- 16:10:28.063 DEBUG: OnContextCreated()
+- 16:10:28.203 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 16:10:29.406 INFO: GET 304 /public/master-assets/sweetalert2/sweetalert2.min.css
+- 16:10:29.453 INFO: GET 200 /public/master-assets/js/adminlte.min.js.map
+- 16:10:29.453 INFO: GET 200 /public/master-assets/toastr/toastr.js.map
+- 16:10:29.547 INFO: GET 200 /public/master-assets/bootstrap/js/bootstrap.bundle.min.js.map
+- 16:10:29.875 INFO: GET 200 /public/master-assets/css/adminlte.min.css.map
+- 16:10:37.390 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52574/auth/my-account/products/variants/add
+- 16:10:38.703 DEBUG: OnContextCreated()
+- 16:10:38.297 INFO: GET 200 /public/master-assets/fontawesome/css/all.min.css
+- 16:10:38.297 INFO: GET 200 /public/master-assets/pace-progress/themes/black/pace-theme-minimal.css
+- 16:10:38.297 INFO: GET 200 /public/master-assets/overlayScrollbars/css/OverlayScrollbars.min.css
+- 16:10:38.297 INFO: GET 200 /public/master-assets/flag-icon-css/css/flag-icon.min.css
+- 16:10:38.297 INFO: GET 200 /public/master-assets/select2/css/select2.min.css
+- 16:10:38.312 INFO: GET 200 /auth/my-account/products/variants/add
+- 16:10:38.312 INFO: GET 200 /public/master-assets/toastr/toastr.min.css
+- 16:10:38.312 INFO: GET 200 /public/master-assets/sweetalert2/sweetalert2.min.css
+- 16:10:38.312 INFO: GET 200 /public/master-assets/style-fix.css
+- 16:10:38.312 INFO: GET 200 /public/master-assets/jquery/jquery.min.js
+- 16:10:38.312 INFO: GET 200 /public/master-assets/css/adminlte.min.css
+- 16:10:38.515 INFO: GET 200 /public/master-assets/pace-progress/pace.min.js
+- 16:10:38.515 INFO: GET 200 /public/master-assets/overlayScrollbars/js/jquery.overlayScrollbars.min.js
+- 16:10:38.515 INFO: GET 200 /public/master-assets/bootstrap/js/bootstrap.bundle.min.js
+- 16:10:38.515 INFO: GET 200 /public/master-assets/select2/js/select2.full.min.js
+- 16:10:38.515 INFO: GET 200 /public/master-assets/js/adminlte.min.js
+- 16:10:38.515 INFO: GET 200 /public/master-assets/toastr/toastr.min.js
+- 16:10:38.562 INFO: GET 200 /public/master-assets/sweetalert2/sweetalert2.all.min.js
+- 16:10:38.562 INFO: GET 200 /public/master-assets/script-fix.js
+- 16:10:38.562 INFO: GET 200 /public/images/dummy-user-160.png
+- 16:10:38.562 INFO: GET 200 /public/images/logo-navbar-32.png
+- 16:10:38.562 INFO: GET 200 /public/images/client_logo.jpeg
+- 16:10:38.640 INFO: GET 200 /public/master-assets/fontawesome/webfonts/fa-solid-900.woff2
+- 16:10:38.640 INFO: GET 200 /public/master-assets/fontawesome/webfonts/fa-regular-400.woff2
+- 16:10:39.297 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52574/auth/my-account/products/variants/add
+- 16:11:00.828 DEBUG: OnBeforeClose() hwnd=1180790
+- 16:11:00.828 DEBUG: RemoveBrowserWindow(): hwnd = 1180790
+- 16:13:56.359 DEBUG: ClientHandler::OnAfterCreated()
+- 16:13:56.359 DEBUG: GetBrowserWindow(): not found, hwnd = 1377194
+- 16:13:56.375 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 16:13:56.375 DEBUG: StoreBrowserWindow(): hwnd = 1377194
+- 16:13:56.390 DEBUG: Centering popup window relative to its parent
+- 16:13:56.422 DEBUG: OnLoadingStateChange: loading=1, url=
+- 16:13:56.016 DEBUG: Command line string for the renderer process: "G:\PHP_DESKTOP\onex-billing\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=744D1C71368AE755A9A80FD4F1E6A30E --lang=en-US --lang=en-US --log-file="G:\PHP_DESKTOP\onex-billing\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=744D1C71368AE755A9A80FD4F1E6A30E --renderer-client-id=5 --mojo-platform-channel-handle=2328 /prefetch:1
+- 16:13:56.047 DEBUG: OnBrowserCreated()
+- 16:13:56.078 DEBUG: OnContextCreated()
+- 16:13:56.765 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 16:13:56.953 INFO: GET 304 /public/master-assets/sweetalert2/sweetalert2.min.css
+- 16:18:18.531 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52574/auth/my-account/products/variants/add
+- 16:18:22.859 DEBUG: OnContextCreated()
+- 16:18:22.468 INFO: GET 200 /public/master-assets/pace-progress/themes/black/pace-theme-minimal.css
+- 16:18:22.468 INFO: GET 200 /auth/my-account/products/variants/add
+- 16:18:22.515 INFO: GET 200 /public/master-assets/fontawesome/css/all.min.css
+- 16:18:22.531 INFO: GET 200 /public/master-assets/sweetalert2/sweetalert2.min.css
+- 16:18:22.547 INFO: GET 200 /public/master-assets/style-fix.css
+- 16:18:22.593 INFO: GET 200 /public/master-assets/jquery/jquery.min.js
+- 16:18:22.609 INFO: GET 200 /public/master-assets/flag-icon-css/css/flag-icon.min.css
+- 16:18:22.609 INFO: GET 200 /public/master-assets/toastr/toastr.min.css
+- 16:18:22.625 INFO: GET 200 /public/master-assets/overlayScrollbars/css/OverlayScrollbars.min.css
+- 16:18:22.640 INFO: GET 200 /public/master-assets/select2/css/select2.min.css
+- 16:18:22.672 INFO: GET 200 /public/master-assets/css/adminlte.min.css
+- 16:18:22.718 INFO: GET 200 /public/master-assets/js/adminlte.min.js
+- 16:18:22.718 INFO: GET 200 /public/master-assets/script-fix.js
+- 16:18:22.718 INFO: GET 200 /public/master-assets/bootstrap/js/bootstrap.bundle.min.js
+- 16:18:22.750 INFO: GET 200 /public/master-assets/pace-progress/pace.min.js
+- 16:18:22.750 INFO: GET 200 /public/master-assets/select2/js/select2.full.min.js
+- 16:18:22.750 INFO: GET 200 /public/master-assets/toastr/toastr.min.js
+- 16:18:22.750 INFO: GET 200 /public/master-assets/overlayScrollbars/js/jquery.overlayScrollbars.min.js
+- 16:18:22.781 INFO: GET 200 /public/images/logo-navbar-32.png
+- 16:18:22.797 INFO: GET 200 /public/images/client_logo.jpeg
+- 16:18:22.797 INFO: GET 200 /public/images/dummy-user-160.png
+- 16:18:22.797 INFO: GET 200 /public/master-assets/sweetalert2/sweetalert2.all.min.js
+- 16:18:23.328 INFO: GET 200 /public/master-assets/fontawesome/webfonts/fa-solid-900.woff2
+- 16:18:23.328 INFO: GET 200 /public/master-assets/fontawesome/webfonts/fa-regular-400.woff2
+- 16:18:23.765 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52574/auth/my-account/products/variants/add
+- 16:26:05.000 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52574/auth/my-account/products/variants/add
+- 16:26:09.656 DEBUG: OnContextCreated()
+- 16:26:09.234 INFO: GET 200 /auth/my-account/products/variants/add
+- 16:26:10.297 INFO: GET 200 /public/master-assets/pace-progress/themes/black/pace-theme-minimal.css
+- 16:26:10.297 INFO: GET 200 /public/master-assets/fontawesome/css/all.min.css
+- 16:26:10.343 INFO: GET 200 /public/master-assets/flag-icon-css/css/flag-icon.min.css
+- 16:26:10.359 INFO: GET 200 /public/master-assets/toastr/toastr.min.css
+- 16:26:10.359 INFO: GET 200 /public/master-assets/overlayScrollbars/css/OverlayScrollbars.min.css
+- 16:26:10.359 INFO: GET 200 /public/master-assets/jquery/jquery.min.js
+- 16:26:10.375 INFO: GET 200 /public/master-assets/select2/css/select2.min.css
+- 16:26:10.437 INFO: GET 200 /public/master-assets/style-fix.css
+- 16:26:10.437 INFO: GET 200 /public/master-assets/css/adminlte.min.css
+- 16:26:10.625 INFO: GET 200 /public/master-assets/select2/js/select2.full.min.js
+- 16:26:10.656 INFO: GET 200 /public/master-assets/script-fix.js
+- 16:26:10.656 INFO: GET 200 /public/master-assets/overlayScrollbars/js/jquery.overlayScrollbars.min.js
+- 16:26:10.656 INFO: GET 200 /public/master-assets/js/adminlte.min.js
+- 16:26:10.656 INFO: GET 200 /public/master-assets/toastr/toastr.min.js
+- 16:26:10.687 INFO: GET 200 /public/master-assets/pace-progress/pace.min.js
+- 16:26:10.703 INFO: GET 200 /public/master-assets/bootstrap/js/bootstrap.bundle.min.js
+- 16:26:10.703 INFO: GET 200 /public/images/logo-navbar-32.png
+- 16:26:10.718 INFO: GET 200 /public/images/client_logo.jpeg
+- 16:26:10.718 INFO: GET 200 /public/images/dummy-user-160.png
+- 16:26:10.922 INFO: GET 200 /public/master-assets/fontawesome/webfonts/fa-solid-900.woff2
+- 16:26:10.922 INFO: GET 200 /public/master-assets/fontawesome/webfonts/fa-regular-400.woff2
+- 16:26:11.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52574/auth/my-account/products/variants/add
+- 16:26:13.093 DEBUG: F5 pressed, reloading page
+- 16:26:13.093 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52574/auth/my-account/products/variants/add
+- 16:26:14.359 DEBUG: F5 pressed, reloading page
+- 16:26:14.359 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:52574/auth/my-account/products/variants/add
+- 16:26:14.359 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52574/auth/my-account/products/variants/add
+- 16:26:14.359 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52574/auth/my-account/products/variants/add
+- 16:26:14.750 INFO: GET 200 /auth/my-account/products/variants/add
+- 16:26:14.328 DEBUG: OnContextCreated()
+- 16:26:14.922 INFO: GET 200 /public/master-assets/pace-progress/themes/black/pace-theme-minimal.css
+- 16:26:14.922 INFO: GET 200 /public/master-assets/fontawesome/css/all.min.css
+- 16:26:14.922 INFO: GET 200 /public/master-assets/overlayScrollbars/css/OverlayScrollbars.min.css
+- 16:26:14.922 INFO: GET 200 /public/master-assets/select2/css/select2.min.css
+- 16:26:14.922 INFO: GET 200 /public/master-assets/flag-icon-css/css/flag-icon.min.css
+- 16:26:14.922 INFO: GET 200 /auth/my-account/products/variants/add
+- 16:26:14.968 INFO: GET 200 /public/master-assets/toastr/toastr.min.css
+- 16:26:14.968 INFO: GET 200 /public/master-assets/style-fix.css
+- 16:26:14.968 INFO: GET 200 /public/master-assets/jquery/jquery.min.js
+- 16:26:14.968 INFO: GET 200 /public/master-assets/css/adminlte.min.css
+- 16:26:14.125 INFO: GET 200 /public/master-assets/bootstrap/js/bootstrap.bundle.min.js
+- 16:26:14.140 INFO: GET 200 /public/master-assets/pace-progress/pace.min.js
+- 16:26:14.156 INFO: GET 200 /public/master-assets/select2/js/select2.full.min.js
+- 16:26:14.156 INFO: GET 200 /public/master-assets/js/adminlte.min.js
+- 16:26:14.140 INFO: GET 200 /public/master-assets/overlayScrollbars/js/jquery.overlayScrollbars.min.js
+- 16:26:14.156 INFO: GET 200 /public/master-assets/toastr/toastr.min.js
+- 16:26:14.172 INFO: GET 200 /public/master-assets/script-fix.js
+- 16:26:14.187 INFO: GET 200 /public/images/dummy-user-160.png
+- 16:26:14.187 INFO: GET 200 /public/images/logo-navbar-32.png
+- 16:26:14.187 INFO: GET 200 /public/images/client_logo.jpeg
+- 16:26:15.703 INFO: GET 200 /public/master-assets/fontawesome/webfonts/fa-solid-900.woff2
+- 16:26:15.703 INFO: GET 200 /public/master-assets/fontawesome/webfonts/fa-regular-400.woff2
+- 16:26:15.172 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52574/auth/my-account/products/variants/add
+[0516/162633.916:INFO:CONSOLE(1)] "SweetAlert2: Unknown parameter "icon"", source: https://cdn.jsdelivr.net/npm/sweetalert2@8 (1)
+- 16:26:35.000 DEBUG: OnBeforeClose() hwnd=1377194
+- 16:26:35.000 DEBUG: RemoveBrowserWindow(): hwnd = 1377194
+[0516/162705.030:INFO:CONSOLE(1)] "SweetAlert2: Unknown parameter "icon"", source: https://cdn.jsdelivr.net/npm/sweetalert2@8 (1)
+[0516/162743.931:INFO:CONSOLE(2)] "The specified value "-Infinity" is not a valid number. The value must match to the following regular expression: -?(\d+|\d+\.\d+|\.\d+)([eE][-+]?\d+)?", source: http://127.0.0.1:52574/public/master-assets/jquery/jquery.min.js (2)
+[0516/162818.475:INFO:CONSOLE(1)] "SweetAlert2: Unknown parameter "didOpen"", source: https://cdn.jsdelivr.net/npm/sweetalert2@8 (1)
+- 16:28:18.906 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52574/auth/my-account/products/variants/add
+- 16:28:22.578 INFO: POST 302 /auth/my-account/products/variants/save
+- 16:28:22.578 DEBUG: OnContextCreated()
+- 16:28:22.156 INFO: GET 200 /auth/my-account/products/variants/add
+- 16:28:23.906 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52574/auth/my-account/products/variants/add
+- 16:28:35.797 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52574/auth/my-account/products/variants/add
+- 16:28:36.922 DEBUG: OnContextCreated()
+- 16:28:36.515 INFO: GET 200 /auth/my-account/products/variants
+- 16:28:36.547 INFO: GET 200 /public/uploads/images/products/thumbnail/product_image__1715857100.jpg
+- 16:28:36.000 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52574/auth/my-account/products/variants
+- 16:28:58.297 DEBUG: WM_DESTROY
+- 16:28:58.297 DEBUG: RemoveBrowserWindow(): hwnd = 721330
+- 16:28:58.312 INFO: Stopping Mongoose web server
+- 16:28:58.312 DEBUG: Mongoose webserver stopped immediately
+- 16:28:58.328 DEBUG: OnBeforeClose() hwnd=2819286
+- 16:28:58.328 DEBUG: RemoveBrowserWindow(): hwnd = 2819286
+- 16:28:58.343 DEBUG: GetBrowserWindow(): not found, hwnd = 2819286
+- 16:28:58.343 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 16:28:58.343 DEBUG: Calling CefQuitMessageLoop()
+- 16:28:58.812 INFO: Ended application
+- 16:28:58.812 INFO: --------------------------------------------------------
+- 16:33:34.188 INFO: --------------------------------------------------------
+- 16:33:34.188 INFO: Started application
+- 16:33:34.188 INFO: Logging to: G:\PHP_DESKTOP\onex-billing\debug.log
+- 16:33:34.188 INFO: Log level = DEBUG4
+- 16:33:34.203 INFO: Starting Mongoose 3.9c web server
+- 16:33:34.203 INFO: WWW directory: G:\PHP_DESKTOP\onex-billing\www
+- 16:33:34.203 INFO: Index files: index.html,index.php
+- 16:33:34.203 INFO: CGI interpreter: G:\PHP_DESKTOP\onex-billing\php\php-cgi.exe
+- 16:33:34.203 INFO: CGI pattern: **.php$
+- 16:33:34.203 INFO: Hide files patterns: 
+- 16:33:34.203 INFO: CGI environment variables set: TMP=C:\Users\Arindam\AppData\Local\Temp\,TEMP=C:\Users\Arindam\AppData\Local\Temp\,TMPDIR=C:\Users\Arindam\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 16:33:34.219 INFO: Web server url: http://127.0.0.1:52888/
+- 16:33:34.235 INFO: remote_debugging_port = 64262
+- 16:33:34.250 DEBUG: Command line string for the browser process: "G:\PHP_DESKTOP\onex-billing\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="G:\PHP_DESKTOP\onex-billing\debug.log" --remote-debugging-port=64262
+- 16:33:34.422 DEBUG: App::OnContextInitialized()
+- 16:33:34.422 DEBUG: Window max width/height = 1286/680
+- 16:33:34.422 DEBUG: GetBrowserWindow(): not found, hwnd = 1377366
+- 16:33:34.422 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 16:33:34.422 DEBUG: BrowserWindow::CreateBrowserControl()
+- 16:33:34.422 DEBUG: StoreBrowserWindow(): hwnd = 1377366
+- 16:33:34.547 DEBUG: ClientHandler::OnAfterCreated()
+- 16:33:34.563 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 16:33:34.015 DEBUG: Command line string for the gpu-process process: "G:\PHP_DESKTOP\onex-billing\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="G:\PHP_DESKTOP\onex-billing\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=26.20.100.7810 --gpu-driver-date=1-21-2020 --lang=en-US --log-file="G:\PHP_DESKTOP\onex-billing\debug.log" --service-request-channel-token=CD6C289E6357E4DAB4D1F40A6B3A3214 --mojo-platform-channel-handle=1792 /prefetch:2
+- 16:33:34.594 DEBUG: OnLoadingStateChange: loading=1, url=
+- 16:33:34.016 DEBUG: Command line string for the renderer process: "G:\PHP_DESKTOP\onex-billing\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=9CBB306F0929BD694C30417DA0F7FD79 --lang=en-US --lang=en-US --log-file="G:\PHP_DESKTOP\onex-billing\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=9CBB306F0929BD694C30417DA0F7FD79 --renderer-client-id=3 --mojo-platform-channel-handle=2328 /prefetch:1
+- 16:33:35.094 DEBUG: OnBrowserCreated()
+[0516/163335.107:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 16:33:36.563 INFO: GET 302 /
+- 16:33:37.672 INFO: GET 200 /auth/my-account
+- 16:33:37.672 INFO: GET 200 /public/master-assets/fontawesome/css/all.min.css
+- 16:33:37.672 INFO: GET 200 /public/master-assets/pace-progress/themes/black/pace-theme-minimal.css
+- 16:33:37.672 INFO: GET 200 /public/master-assets/overlayScrollbars/css/OverlayScrollbars.min.css
+- 16:33:37.672 INFO: GET 200 /public/master-assets/flag-icon-css/css/flag-icon.min.css
+- 16:33:37.672 INFO: GET 200 /public/master-assets/select2/css/select2.min.css
+- 16:33:37.688 INFO: GET 200 /public/master-assets/css/adminlte.min.css
+- 16:33:37.703 INFO: GET 200 /public/master-assets/style-fix.css
+- 16:33:37.703 INFO: GET 200 /public/master-assets/toastr/toastr.min.css
+- 16:33:37.703 INFO: GET 200 /public/master-assets/jquery/jquery.min.js
+- 16:33:37.984 DEBUG: OnContextCreated()
+- 16:33:38.766 INFO: GET 200 /public/master-assets/bootstrap/js/bootstrap.bundle.min.js
+- 16:33:38.782 INFO: GET 200 /public/master-assets/pace-progress/pace.min.js
+- 16:33:38.797 INFO: GET 200 /public/master-assets/overlayScrollbars/js/jquery.overlayScrollbars.min.js
+- 16:33:38.797 INFO: GET 200 /public/master-assets/select2/js/select2.full.min.js
+- 16:33:38.797 INFO: GET 200 /public/master-assets/js/adminlte.min.js
+- 16:33:38.813 INFO: GET 200 /public/master-assets/toastr/toastr.min.js
+- 16:33:38.969 INFO: GET 200 /public/master-assets/sweetalert2/sweetalert2@8.js
+- 16:33:38.985 INFO: GET 200 /public/master-assets/script-fix.js
+- 16:33:38.985 INFO: GET 200 /public/images/dummy-user-160.png
+- 16:33:38.000 INFO: GET 200 /public/images/logo-navbar-32.png
+- 16:33:38.000 INFO: GET 200 /public/images/client_logo.jpeg
+- 16:33:38.360 INFO: GET 200 /public/master-assets/fontawesome/webfonts/fa-solid-900.woff2
+- 16:33:38.375 INFO: GET 200 /public/master-assets/fontawesome/webfonts/fa-regular-400.woff2
+- 16:33:39.922 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52888/auth/my-account
+- 16:33:49.750 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52888/auth/my-account
+- 16:33:50.641 DEBUG: OnContextCreated()
+- 16:33:50.360 INFO: GET 200 /auth/my-account/purchase
+- 16:33:51.907 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52888/auth/my-account/purchase
+- 16:33:52.485 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52888/auth/my-account/purchase
+- 16:33:53.141 INFO: GET 200 /auth/my-account/purchase/add
+- 16:33:53.422 DEBUG: OnContextCreated()
+- 16:33:53.250 INFO: GET 200 /public/master-assets/bs-datepicker/css/bootstrap-datepicker3.min.css
+- 16:33:53.266 INFO: GET 200 /public/master-assets/bs-datepicker/js/bootstrap-datepicker.min.js
+- 16:33:53.578 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52888/auth/my-account/purchase/add
+- 16:37:31.907 DEBUG: F5 pressed, reloading page
+- 16:37:31.922 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52888/auth/my-account/purchase/add
+- 16:37:31.203 DEBUG: F5 pressed, reloading page
+- 16:37:31.203 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:52888/auth/my-account/purchase/add
+- 16:37:31.203 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52888/auth/my-account/purchase/add
+- 16:37:31.266 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52888/auth/my-account/purchase/add
+- 16:37:31.563 DEBUG: F5 pressed, reloading page
+- 16:37:31.563 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:52888/auth/my-account/purchase/add
+- 16:37:31.563 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52888/auth/my-account/purchase/add
+- 16:37:31.578 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52888/auth/my-account/purchase/add
+- 16:37:32.766 DEBUG: F5 pressed, reloading page
+- 16:37:32.766 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:52888/auth/my-account/purchase/add
+- 16:37:32.766 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52888/auth/my-account/purchase/add
+- 16:37:32.782 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52888/auth/my-account/purchase/add
+- 16:37:32.953 DEBUG: F5 pressed, reloading page
+- 16:37:32.969 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:52888/auth/my-account/purchase/add
+- 16:37:32.969 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52888/auth/my-account/purchase/add
+- 16:37:32.985 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52888/auth/my-account/purchase/add
+- 16:37:32.125 DEBUG: F5 pressed, reloading page
+- 16:37:32.141 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:52888/auth/my-account/purchase/add
+- 16:37:32.172 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52888/auth/my-account/purchase/add
+- 16:37:32.172 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52888/auth/my-account/purchase/add
+- 16:37:32.297 DEBUG: F5 pressed, reloading page
+- 16:37:32.328 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:52888/auth/my-account/purchase/add
+- 16:37:32.328 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52888/auth/my-account/purchase/add
+- 16:37:32.328 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52888/auth/my-account/purchase/add
+- 16:37:32.407 INFO: GET 200 /auth/my-account/purchase/add
+- 16:37:32.469 DEBUG: F5 pressed, reloading page
+- 16:37:32.485 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:52888/auth/my-account/purchase/add
+- 16:37:32.485 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52888/auth/my-account/purchase/add
+- 16:37:32.485 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52888/auth/my-account/purchase/add
+- 16:37:32.641 DEBUG: F5 pressed, reloading page
+- 16:37:32.688 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:52888/auth/my-account/purchase/add
+- 16:37:32.735 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52888/auth/my-account/purchase/add
+- 16:37:33.766 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52888/auth/my-account/purchase/add
+- 16:37:33.641 INFO: GET 200 /auth/my-account/purchase/add
+- 16:37:33.641 INFO: GET 200 /auth/my-account/purchase/add
+- 16:37:33.641 INFO: GET 200 /auth/my-account/purchase/add
+- 16:37:33.672 INFO: GET 200 /auth/my-account/purchase/add
+- 16:37:33.672 INFO: GET 200 /auth/my-account/purchase/add
+- 16:37:33.688 INFO: GET 200 /auth/my-account/purchase/add
+- 16:37:34.766 INFO: GET 200 /auth/my-account/purchase/add
+- 16:37:34.438 DEBUG: OnContextCreated()
+- 16:37:34.157 INFO: GET 200 /auth/my-account/purchase/add
+- 16:37:34.172 INFO: GET 200 /public/master-assets/pace-progress/themes/black/pace-theme-minimal.css
+- 16:37:34.282 INFO: GET 200 /public/master-assets/fontawesome/css/all.min.css
+- 16:37:34.328 INFO: GET 200 /public/master-assets/flag-icon-css/css/flag-icon.min.css
+- 16:37:34.328 INFO: GET 200 /public/master-assets/overlayScrollbars/css/OverlayScrollbars.min.css
+- 16:37:34.344 INFO: GET 200 /public/master-assets/toastr/toastr.min.css
+- 16:37:34.344 INFO: GET 200 /public/master-assets/select2/css/select2.min.css
+- 16:37:34.360 INFO: GET 200 /public/master-assets/jquery/jquery.min.js
+- 16:37:34.375 INFO: GET 200 /public/master-assets/style-fix.css
+- 16:37:34.391 INFO: GET 200 /public/master-assets/bs-datepicker/css/bootstrap-datepicker3.min.css
+- 16:37:34.407 INFO: GET 200 /public/master-assets/bootstrap/js/bootstrap.bundle.min.js
+- 16:37:34.422 INFO: GET 200 /public/master-assets/css/adminlte.min.css
+- 16:37:34.453 INFO: GET 200 /public/master-assets/pace-progress/pace.min.js
+- 16:37:34.469 INFO: GET 200 /public/master-assets/sweetalert2/sweetalert2@8.js
+- 16:37:34.469 INFO: GET 200 /public/master-assets/overlayScrollbars/js/jquery.overlayScrollbars.min.js
+- 16:37:34.469 INFO: GET 200 /public/master-assets/script-fix.js
+- 16:37:34.485 INFO: GET 200 /public/master-assets/select2/js/select2.full.min.js
+- 16:37:34.485 INFO: GET 200 /public/master-assets/js/adminlte.min.js
+- 16:37:34.485 INFO: GET 200 /public/master-assets/toastr/toastr.min.js
+- 16:37:34.516 INFO: GET 200 /public/images/logo-navbar-32.png
+- 16:37:34.516 INFO: GET 200 /public/master-assets/bs-datepicker/js/bootstrap-datepicker.min.js
+- 16:37:34.532 INFO: GET 200 /public/images/client_logo.jpeg
+- 16:37:34.532 INFO: GET 200 /public/images/dummy-user-160.png
+- 16:37:35.032 INFO: GET 200 /public/master-assets/fontawesome/webfonts/fa-solid-900.woff2
+- 16:37:35.032 INFO: GET 200 /public/master-assets/fontawesome/webfonts/fa-regular-400.woff2
+[0516/163735.461:INFO:CONSOLE(2)] "jQuery.Deferred exception: $(...).validate is not a function", source: http://127.0.0.1:52888/public/master-assets/jquery/jquery.min.js (2)
+- 16:37:35.344 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52888/auth/my-account/purchase/add
+[0516/163735.645:INFO:CONSOLE(2)] "Uncaught TypeError: $(...).validate is not a function", source: http://127.0.0.1:52888/public/master-assets/jquery/jquery.min.js (2)
+- 16:38:05.953 DEBUG: ClientHandler::OnAfterCreated()
+- 16:38:05.953 DEBUG: GetBrowserWindow(): not found, hwnd = 1639880
+- 16:38:05.953 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 16:38:05.953 DEBUG: StoreBrowserWindow(): hwnd = 1639880
+- 16:38:05.969 DEBUG: Centering popup window relative to its parent
+- 16:38:05.125 DEBUG: OnLoadingStateChange: loading=1, url=
+- 16:38:05.000 DEBUG: Command line string for the renderer process: "G:\PHP_DESKTOP\onex-billing\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=E0B1B73463C92AAAC5C7A9E23CD1DBE4 --lang=en-US --lang=en-US --log-file="G:\PHP_DESKTOP\onex-billing\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=E0B1B73463C92AAAC5C7A9E23CD1DBE4 --renderer-client-id=4 --mojo-platform-channel-handle=3972 /prefetch:1
+- 16:38:05.047 DEBUG: OnBrowserCreated()
+- 16:38:05.062 DEBUG: OnContextCreated()
+- 16:38:06.750 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+- 16:38:06.547 INFO: GET 200 /public/master-assets/css/adminlte.min.css.map
+- 16:38:21.141 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52888/auth/my-account/purchase/add
+- 16:38:22.047 DEBUG: OnContextCreated()
+- 16:38:22.782 INFO: GET 200 /auth/my-account/purchase/add
+- 16:38:22.782 INFO: GET 200 /public/master-assets/pace-progress/themes/black/pace-theme-minimal.css
+- 16:38:22.782 INFO: GET 200 /public/master-assets/overlayScrollbars/css/OverlayScrollbars.min.css
+- 16:38:22.782 INFO: GET 200 /public/master-assets/flag-icon-css/css/flag-icon.min.css
+- 16:38:22.782 INFO: GET 200 /public/master-assets/select2/css/select2.min.css
+- 16:38:22.782 INFO: GET 200 /public/master-assets/fontawesome/css/all.min.css
+- 16:38:22.797 INFO: GET 200 /public/master-assets/toastr/toastr.min.css
+- 16:38:22.797 INFO: GET 200 /public/master-assets/bs-datepicker/css/bootstrap-datepicker3.min.css
+- 16:38:22.797 INFO: GET 200 /public/master-assets/style-fix.css
+- 16:38:22.797 INFO: GET 200 /public/master-assets/css/adminlte.min.css
+- 16:38:22.828 INFO: GET 200 /public/master-assets/jquery/jquery.min.js
+- 16:38:22.891 INFO: GET 200 /public/master-assets/overlayScrollbars/js/jquery.overlayScrollbars.min.js
+- 16:38:22.891 INFO: GET 200 /public/master-assets/toastr/toastr.min.js
+- 16:38:22.891 INFO: GET 200 /public/master-assets/select2/js/select2.full.min.js
+- 16:38:22.891 INFO: GET 200 /public/master-assets/js/adminlte.min.js
+- 16:38:22.891 INFO: GET 200 /public/master-assets/pace-progress/pace.min.js
+- 16:38:22.891 INFO: GET 200 /public/master-assets/bootstrap/js/bootstrap.bundle.min.js
+- 16:38:22.922 INFO: GET 200 /public/master-assets/sweetalert2/sweetalert2@8.js
+- 16:38:22.922 INFO: GET 200 /public/master-assets/bs-datepicker/js/bootstrap-datepicker.min.js
+- 16:38:22.922 INFO: GET 200 /public/master-assets/script-fix.js
+- 16:38:22.922 INFO: GET 200 /public/images/logo-navbar-32.png
+- 16:38:22.922 INFO: GET 200 /public/images/client_logo.jpeg
+- 16:38:22.922 INFO: GET 200 /public/images/dummy-user-160.png
+- 16:38:22.282 INFO: GET 200 /public/master-assets/fontawesome/webfonts/fa-solid-900.woff2
+- 16:38:22.297 INFO: GET 200 /public/master-assets/fontawesome/webfonts/fa-regular-400.woff2
+- 16:38:23.235 INFO: GET 200 /public/master-assets/bootstrap/js/bootstrap.bundle.min.js.map
+- 16:38:23.282 INFO: GET 200 /public/master-assets/js/adminlte.min.js.map
+- 16:38:23.282 INFO: GET 200 /public/master-assets/toastr/toastr.js.map
+- 16:38:23.328 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52888/auth/my-account/purchase/add
+[0516/163827.888:INFO:CONSOLE(1)] "SweetAlert2: Unknown parameter "icon"", source: http://127.0.0.1:52888/public/master-assets/sweetalert2/sweetalert2@8.js (1)
+- 16:39:03.422 DEBUG: OnBeforeClose() hwnd=1639880
+- 16:39:03.422 DEBUG: RemoveBrowserWindow(): hwnd = 1639880
+- 16:39:03.375 DEBUG: OnBrowserDestroyed()
+- 16:39:13.703 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52888/auth/my-account/purchase/add
+- 16:39:14.422 INFO: GET 302 /auth/my-account/logout
+- 16:39:16.422 DEBUG: OnContextCreated()
+- 16:39:16.141 INFO: GET 200 /
+- 16:39:16.203 INFO: GET 200 /public/images/logo-sigin-256.png
+- 16:39:16.578 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52888/
+- 16:39:20.672 DEBUG: WM_DESTROY
+- 16:39:20.735 DEBUG: RemoveBrowserWindow(): hwnd = 1377366
+- 16:39:20.735 INFO: Stopping Mongoose web server
+- 16:39:21.766 DEBUG: Mongoose webserver stopped immediately
+- 16:39:21.828 DEBUG: OnBeforeClose() hwnd=2032574
+- 16:39:21.828 DEBUG: RemoveBrowserWindow(): hwnd = 2032574
+- 16:39:21.828 DEBUG: GetBrowserWindow(): not found, hwnd = 2032574
+- 16:39:21.844 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 16:39:21.844 DEBUG: Calling CefQuitMessageLoop()
+- 16:39:21.188 INFO: Ended application
+- 16:39:21.188 INFO: --------------------------------------------------------
+- 00:50:30.266 INFO: --------------------------------------------------------
+- 00:50:30.266 INFO: Started application
+- 00:50:30.266 INFO: Logging to: G:\PHP_DESKTOP\onex-billing\debug.log
+- 00:50:30.266 INFO: Log level = DEBUG4
+- 00:50:30.266 INFO: Starting Mongoose 3.9c web server
+- 00:50:30.281 INFO: WWW directory: G:\PHP_DESKTOP\onex-billing\www
+- 00:50:30.281 INFO: Index files: index.html,index.php
+- 00:50:30.281 INFO: CGI interpreter: G:\PHP_DESKTOP\onex-billing\php\php-cgi.exe
+- 00:50:30.281 INFO: CGI pattern: **.php$
+- 00:50:30.281 INFO: Hide files patterns: 
+- 00:50:30.281 INFO: CGI environment variables set: TMP=C:\Users\Arindam\AppData\Local\Temp\,TEMP=C:\Users\Arindam\AppData\Local\Temp\,TMPDIR=C:\Users\Arindam\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 00:50:30.328 INFO: Web server url: http://127.0.0.1:60563/
+- 00:50:30.328 INFO: remote_debugging_port = 55371
+- 00:50:30.406 DEBUG: Command line string for the browser process: "G:\PHP_DESKTOP\onex-billing\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="G:\PHP_DESKTOP\onex-billing\debug.log" --remote-debugging-port=55371
+- 00:50:32.000 DEBUG: Command line string for the gpu-process process: "G:\PHP_DESKTOP\onex-billing\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="G:\PHP_DESKTOP\onex-billing\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x5916 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=26.20.100.7810 --gpu-driver-date=1-21-2020 --lang=en-US --log-file="G:\PHP_DESKTOP\onex-billing\debug.log" --service-request-channel-token=C428D1AA07114DD74E9A81C8D2350CED --mojo-platform-channel-handle=1824 /prefetch:2
+- 00:50:32.328 DEBUG: App::OnContextInitialized()
+- 00:50:32.328 DEBUG: Window max width/height = 1286/680
+- 00:50:32.344 DEBUG: GetBrowserWindow(): not found, hwnd = 328952
+- 00:50:32.344 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 00:50:32.344 DEBUG: BrowserWindow::CreateBrowserControl()
+- 00:50:32.344 DEBUG: StoreBrowserWindow(): hwnd = 328952
+- 00:50:33.610 DEBUG: ClientHandler::OnAfterCreated()
+- 00:50:33.610 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 00:50:33.000 DEBUG: Command line string for the renderer process: "G:\PHP_DESKTOP\onex-billing\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=D06FA28A96A72E91625FBFACC45D8733 --lang=en-US --lang=en-US --log-file="G:\PHP_DESKTOP\onex-billing\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=D06FA28A96A72E91625FBFACC45D8733 --renderer-client-id=3 --mojo-platform-channel-handle=2400 /prefetch:1
+- 00:50:33.969 DEBUG: OnLoadingStateChange: loading=1, url=
+- 00:50:33.469 DEBUG: OnBrowserCreated()
+[0614/005034.307:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 00:50:59.297 INFO: GET 500 /
+- 00:51:00.344 DEBUG: OnContextCreated()
+- 00:51:02.719 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60563/
+- 00:51:04.141 DEBUG: WM_DESTROY
+- 00:51:04.141 DEBUG: RemoveBrowserWindow(): hwnd = 328952
+- 00:51:04.141 INFO: Stopping Mongoose web server
+- 00:51:04.141 DEBUG: Mongoose webserver stopped immediately
+- 00:51:04.156 DEBUG: OnBeforeClose() hwnd=1770448
+- 00:51:04.156 DEBUG: RemoveBrowserWindow(): hwnd = 1770448
+- 00:51:04.156 DEBUG: GetBrowserWindow(): not found, hwnd = 1770448
+- 00:51:04.172 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 00:51:04.172 DEBUG: Calling CefQuitMessageLoop()
+- 00:51:06.906 INFO: Ended application
+- 00:51:06.906 INFO: --------------------------------------------------------

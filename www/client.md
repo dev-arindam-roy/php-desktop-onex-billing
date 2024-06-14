@@ -1,0 +1,12 @@
+difoindia_onex_billing
+difoindia_onex_dev
+PuhpuBsbK4StVKUGsHqH
+
+XgxEYcFfedfvYJzpeqWK
+
+
+
+Database:	difoindia_onex_billing
+Host:	localhost
+Username:	difoindia_onex_dev
+Password:	XgxEYcFfedfvYJzpeqWK
